@@ -1,5 +1,5 @@
 {
-  "release": "v1.0.1",
+  "release": "v1.1.0",
   "expected_calls": 624,
   "item_observations": 6288,
   "files": [
@@ -2801,7 +2801,7 @@
     },
     {
       "path": "reproduce.py",
-      "sha256": "cfc9b4ca2e20ad4121f9340961866bfda3829710686945416245096b0c869ac3"
+      "sha256": "f9176af06a130c637e02f9a3a7028387e914225fa0ae8d2b7b5b0fd984e55265"
     },
     {
       "path": "requirements.txt",

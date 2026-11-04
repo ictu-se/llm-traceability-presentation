@@ -913,6 +913,7 @@ def plot(effects, outcomes, controls, complete):
                     [i + offset for i in range(len(families))],
                     values,
                     marker=marker,
+                    color="#387b87" if seed == 17 else "#c2a446",
                     linestyle="none",
                     label=str(seed),
                     markersize=4,
@@ -940,7 +941,7 @@ def plot(effects, outcomes, controls, complete):
     fig.savefig(TEX / "figures/layout_effects.pdf")
     plt.close(fig)
     rows = [r for r in outcomes if r["phase"] == which]
-    fig, ax = plt.subplots(figsize=(4.724, 3.2))
+    fig, ax = plt.subplots(figsize=(4.724, 3.3))
     bottom = [0] * len(rows)
     colors = {
         "definitive": "#387b87",
@@ -964,10 +965,7 @@ def plot(effects, outcomes, controls, complete):
     ax.set_xticks(
         range(len(rows)),
         [
-            NAMES[r["model"]][:3]
-            + "\n"
-            + ("P" if r["layout"] == "prose" else "S")
-            + ("L" if r["linked"] else "U")
+            ("P" if r["layout"] == "prose" else "S") + ("L" if r["linked"] else "U")
             for r in rows
         ],
         fontsize=10,
@@ -975,7 +973,19 @@ def plot(effects, outcomes, controls, complete):
     ax.tick_params(axis="y", labelsize=10)
     ax.set_ylabel("Repeated item decisions", fontsize=10)
     ax.legend(ncol=2, fontsize=10, loc="upper center", bbox_to_anchor=(0.5, 1.33))
-    fig.tight_layout(pad=0.4)
+    for position, model in [(1.5, "GPT-OSS"), (5.5, "Mistral"), (9.5, "Gemma")]:
+        ax.text(
+            position,
+            -0.20,
+            model,
+            transform=ax.get_xaxis_transform(),
+            ha="center",
+            va="top",
+            fontsize=10,
+        )
+    for boundary in [3.5, 7.5]:
+        ax.axvline(boundary, color="#999999", linewidth=0.6)
+    fig.tight_layout(rect=(0, 0.05, 1, 1), pad=0.4)
     fig.savefig(TEX / "figures/response_states.pdf")
     plt.close(fig)
     if controls:
