@@ -1,0 +1,27 @@
+{
+  "status": "completed_prospective_replication",
+  "calls": 200,
+  "primary_calls": 120,
+  "singleton_calls": 80,
+  "unique_questions": 60,
+  "project_families": 5,
+  "models": [
+    "gpt-oss:20b",
+    "mistral-small:24b",
+    "gemma4:26b"
+  ],
+  "seeds": [
+    17,
+    43
+  ],
+  "batch_failures": 0,
+  "response_state_counts": {
+    "definitive": 1493,
+    "explicit_uncertain": 25,
+    "item_invalid": 2
+  },
+  "primary_decisions": 1440,
+  "singleton_decisions": 80,
+  "previous_project_families_inspected": true,
+  "new_query_fingerprints_disjoint": true
+}

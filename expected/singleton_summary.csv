@@ -1,0 +1,9 @@
+model,layout,linked,n,batch_correct,single_correct,both_valid,both_definitive,label_changes,definitive_changes
+mistral-small:24b,prose,False,10,10,10,10,10,0,0
+mistral-small:24b,prose,True,10,10,10,10,10,0,0
+mistral-small:24b,structured,False,10,10,10,10,10,0,0
+mistral-small:24b,structured,True,10,10,10,10,10,0,0
+gpt-oss:20b,structured,False,10,7,8,10,9,3,2
+gpt-oss:20b,prose,True,10,8,8,10,9,3,2
+gpt-oss:20b,prose,False,10,9,9,10,10,0,0
+gpt-oss:20b,structured,True,10,9,8,10,9,3,2

@@ -1,0 +1,93 @@
+ACIIDS P10 prospective replication and batching control, frozen 2026-11-03
+
+Question and prior exposure
+The 20261031 two-project factorial and 20261031b response-failure/order diagnostics
+are exploratory and already inspected. This follow-up uses unqueried candidate
+pairs from five PREVIOUSLY INSPECTED project families, not unseen project families.
+No claim of public preregistration or blind source-family generalization is made.
+All old model outputs, source files and labels remain immutable.
+
+Fixed corpus
+Pinned ArDoCo benchmark revision e60ddb2676358048131178c925e86a5b33ec38f2.
+Use current matched SAD/SAM snapshots: BigBlueButton2021, JabRef2021,
+TEAMMATES2021, MediaStore2016, TeaStore2020. Three are production/open-source
+projects and two are reference/research applications; do not pool them under a
+production-only label. Use PCM repository components and numbered source sentences.
+For each project select6 published positive pairs and6 unlisted pairs by ascending
+SHA256('aciids-p10-replication-v1|family|component_id|sentence_id'), after excluding
+ALL old anchor/factorial query fingerprints (family,normalized component name,
+normalized target-sentence text). Sample labels are used only for fixed balancing,
+not model-outcome selection. All labels are hidden from model payloads.
+The closed benchmark treats unlisted component/sentence pairs as nonlinks; absence
+from its positives is not independent evidence of a real architectural violation.
+Total60 unique new pairs, balanced6+6 per project; this is a case-control sample,
+not the natural prevalence of links. No new human/expert assessments are collected.
+
+Fixed factorial
+Reuse EXACT old system prompt, ID-keyed schema and per-question payload function.
+Factors: source layout prose vs structured records; explicit locator-to-text
+association absent vs present. Target sentence/ID, candidate name and literal
+context content are identical in every cell. The unlinked ID list is identically
+shuffled in all cells, so all locators exist but their context association differs.
+Context is target +/-2 numbered sentences. No new prompt wording is tuned.
+Three preselected local models: gpt-oss:20b, mistral-small:24b, gemma4:26b;
+temperature.2, context32768, output4096, seeds17/43. GPT-OSS think=low,
+Gemma think=false; model tags, quantization metadata and digests frozen.
+Each family is one12-question batch; 5 families x3 models x2 seeds x4 cells =120
+primary calls. Cell order rotates deterministically over model/seed/project.
+Model choice reuses existing installed models; there is no outcome-based selection.
+
+Batching diagnostic
+For each project choose exactly one positive and one negative among its12 selected
+questions using ascending SHA256('singleton|question_id'). For GPT-OSS and Mistral,
+seed17, ask each of these10 questions alone in every factorial cell:80 calls.
+Compare these with the same questions in the primary12-question batches.
+Question order, total prompt length and other questions' text change together;
+this intervention does NOT isolate a decoder-only or pure batch-size mechanism.
+Gemma has no singleton arm; do not impute one. Total200 actual planned calls.
+Batch12 differs from the old experiment's batch10, so old-vs-new differences are
+not interpreted as causal project/model effects. Within each arm batching is fixed.
+
+Response validation and endpoints
+Store requests before calls, all raw responses/errors/timing/tokens, no retries
+based on outcomes. Exact cached request resume only. Reject duplicate JSON keys,
+truncation, invalid schema, missing/extra question keys as batch failures; all
+questions in such a batch remain in the all-attempted denominator as unresolved.
+For an otherwise valid batch, reject an item's invalid/out-of-context evidence ID
+or a link without evidence as item invalid; it also remains in denominators.
+Separate (a) batch failures, (b) item-invalid responses, (c) valid explicit uncertain,
+(d) valid definitive judgments. Schema validity is not semantic correctness.
+Primary endpoint: correct benchmark label / all attempted pairs, counting unresolved
+as not correct. Also report definitive coverage, correct/definitive, link/nonlink
+class recall, and actual call/token/time budgets. Self-reported confidence is not a
+calibrated probability and is not used to tune acceptance or primary predictions.
+
+Paired estimands
+For each project/model/seed and locator condition, structured-minus-prose all-pair
+correctness; for each layout, linked-minus-unlinked difference; factorial interaction.
+Retain question and seed pairing. The independent project count is5, not the200
+calls or repeated question decisions. Report model/seed/project cells and ranges,
+not population p-values or confidence intervals pretending many independent
+projects. Two seeds are repeated measurements, not independent samples of people.
+Report exact descriptive decomposition of each layout contrast into both-valid,
+structured-valid-only, prose-valid-only, both-invalid contributions using ORIGINAL
+denominators. A both-valid subset is post-treatment; no causal mediation claim.
+For singleton diagnostics report both-valid agreement/label changes and whole-arm
+correctness differences on all10 shared questions. Do not extrapolate to all60.
+Two lexical sanity controls: exact normalized component-name occurrence in target
+only or entire supplied context. These are fixed, untuned controls, not SOTA TLR.
+
+Planned manuscript artifacts
+T1 project/cohort counts, available positives and selected/previously excluded pairs.
+T2 experiment arms, model/settings/batch/seed/call budgets and prior exposure.
+T3 main correctness/coverage with failures retained, model x seed x factorial cell.
+T4 family-wise paired layout/locator contrasts, all per-family denominators12.
+T5 exact response-failure decomposition, old and replication reported separately.
+T6 matched singleton vs batch diagnostic (ten shared questions, two models).
+F1 independent factors and assessment/validation flow, no invented observations.
+F2 primary paired contrasts by family/model/seed, zero line and all outcomes.
+F3 batch/item/abstention/definitive response states by factorial cell.
+F4 singleton changes versus original batch on the matched subset.
+All tables/figures generated from raw data. No pending result is filled with a
+forecast. Do not merge this task with generated architecture, source-audit or
+human-usability experiments as though they shared a reference population.

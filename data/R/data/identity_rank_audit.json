@@ -1,0 +1,72 @@
+[
+  {
+    "family": "bigbluebutton",
+    "identity_mode": "original",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 1.0
+  },
+  {
+    "family": "bigbluebutton",
+    "identity_mode": "independent",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 0.5
+  },
+  {
+    "family": "jabref",
+    "identity_mode": "original",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 0.8611111111111112
+  },
+  {
+    "family": "jabref",
+    "identity_mode": "independent",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 0.3888888888888889
+  },
+  {
+    "family": "teammates",
+    "identity_mode": "original",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 1.0
+  },
+  {
+    "family": "teammates",
+    "identity_mode": "independent",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 0.5555555555555556
+  },
+  {
+    "family": "mediastore",
+    "identity_mode": "original",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 1.0
+  },
+  {
+    "family": "mediastore",
+    "identity_mode": "independent",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 0.5555555555555556
+  },
+  {
+    "family": "teastore",
+    "identity_mode": "original",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 1.0
+  },
+  {
+    "family": "teastore",
+    "identity_mode": "independent",
+    "positive_n": 6,
+    "negative_n": 6,
+    "numeric_rank_auc": 0.05555555555555555
+  }
+]

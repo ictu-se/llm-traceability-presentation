@@ -1,0 +1,2682 @@
+[
+  {
+    "id": "N00a52207d0e42f42",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_B5geQHDsEeSqnN80MQ2uGw",
+    "component_name": "Packaging",
+    "target_sentence_id": 25,
+    "target_sentence": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component.",
+    "context": [
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N0124534d0e37a94d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_qxAiILg7EeSNPorBlo7x9g",
+    "component_name": "FileStorage",
+    "target_sentence_id": 16,
+    "target_sentence": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component.",
+    "context": [
+      {
+        "sentence_id": 14,
+        "text": "To reduce the risk of copyright infringements, all downloaded files are watermarked."
+      },
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N01a4b2b01ed77fd0",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 4,
+    "target_sentence": "After the user has logged into the system, he or she will be forwarded to a site to list the audio files.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "To meet the user authentication requirement, registration and log-in have to be offered."
+      },
+      {
+        "sentence_id": 3,
+        "text": "To this end, the Facade component delivers the corresponding registration and log-in pages to users."
+      },
+      {
+        "sentence_id": 4,
+        "text": "After the user has logged into the system, he or she will be forwarded to a site to list the audio files."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The main functionality, however, is provided by other components."
+      },
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N021b5f3a28044e0b",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_B5geQHDsEeSqnN80MQ2uGw",
+    "component_name": "Packaging",
+    "target_sentence_id": 7,
+    "target_sentence": "Application business logic is provided by a central business logic component, called the MediaManagement component.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The main functionality, however, is provided by other components."
+      },
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N024e73524a56bccd",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_S-lawHDqEeSqnN80MQ2uGw2",
+    "component_name": "ParallelWatermarking",
+    "target_sentence_id": 8,
+    "target_sentence": "The MediaManagement component coordinates the communication of other components.",
+    "context": [
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N02e57a788fd2deb1",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_Fslt8OXSEeSa__lJ2-JCxw",
+    "component_name": "DownloadLoadBalancer",
+    "target_sentence_id": 22,
+    "target_sentence": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data.",
+    "context": [
+      {
+        "sentence_id": 20,
+        "text": "The ReEncoder component converts the bit rates of audio files."
+      },
+      {
+        "sentence_id": 21,
+        "text": "This can result in reduction of file sizes."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      },
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N0341886f009b6b95",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_S-lawHDqEeSqnN80MQ2uGw",
+    "component_name": "AudioWatermarking",
+    "target_sentence_id": 25,
+    "target_sentence": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component.",
+    "context": [
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N03e2b93a2af9a240",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_ahv3gL0YEeSAHuL4ItXOLQ",
+    "component_name": "UserManagement",
+    "target_sentence_id": 11,
+    "target_sentence": "The UserManagement component answers the requests for registration and authentication.",
+    "context": [
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      },
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      },
+      {
+        "sentence_id": 13,
+        "text": "When a user logs into the system, Media Store does not store the password in plain text, but rather the UserManagement component implements further functions to hash and salt the passwords."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N03f3e34681f31ba8",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_qxAiILg7EeSNPorBlo7x9g",
+    "component_name": "FileStorage",
+    "target_sentence_id": 29,
+    "target_sentence": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data.",
+    "context": [
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      },
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N04b327901b31e3ad",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_h_QpkLhEEeSNPorBlo7x9g",
+    "component_name": "TagWatermarking",
+    "target_sentence_id": 30,
+    "target_sentence": "The UserDBAdapter component creates a query based on the user's request.",
+    "context": [
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      },
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N052b7368329d8279",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_st2Y0HDrEeSqnN80MQ2uGw",
+    "component_name": "Facade",
+    "target_sentence_id": 1,
+    "target_sentence": "One of the main components of Media Store is a server-side web front end, namely the Facade component, which delivers websites to the users and provides session management.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "One of the main components of Media Store is a server-side web front end, namely the Facade component, which delivers websites to the users and provides session management."
+      },
+      {
+        "sentence_id": 2,
+        "text": "To meet the user authentication requirement, registration and log-in have to be offered."
+      },
+      {
+        "sentence_id": 3,
+        "text": "To this end, the Facade component delivers the corresponding registration and log-in pages to users."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N05b4375d242eabb9",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_B5geQHDsEeSqnN80MQ2uGw",
+    "component_name": "Packaging",
+    "target_sentence_id": 31,
+    "target_sentence": "The Database component then executes the actual query for files.",
+    "context": [
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      },
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      },
+      {
+        "sentence_id": 33,
+        "text": "By contrast, all audio files are stored in a specific location (e.g., a dedicated file server or a local disk) to decouple the DataStorage from the database."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N05ebfb80db71ebe0",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_st2Y0HDrEeSqnN80MQ2uGw",
+    "component_name": "Facade",
+    "target_sentence_id": 24,
+    "target_sentence": "It stores user information and meta-data of audio files such as the name and the genre.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      },
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N0686fe0beba7ed3d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_tBjC0HDpEeSqnN80MQ2uGw",
+    "component_name": "UserDBAdapter",
+    "target_sentence_id": 1,
+    "target_sentence": "One of the main components of Media Store is a server-side web front end, namely the Facade component, which delivers websites to the users and provides session management.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "One of the main components of Media Store is a server-side web front end, namely the Facade component, which delivers websites to the users and provides session management."
+      },
+      {
+        "sentence_id": 2,
+        "text": "To meet the user authentication requirement, registration and log-in have to be offered."
+      },
+      {
+        "sentence_id": 3,
+        "text": "To this end, the Facade component delivers the corresponding registration and log-in pages to users."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N06f082166d5fc0d7",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_ahv3gL0YEeSAHuL4ItXOLQ",
+    "component_name": "UserManagement",
+    "target_sentence_id": 10,
+    "target_sentence": "As described above, to communicate with the system, users' registration and authentication are needed.",
+    "context": [
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      },
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N07bc6e3b2a6cd6f1",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_qxAiILg7EeSNPorBlo7x9g",
+    "component_name": "FileStorage",
+    "target_sentence_id": 10,
+    "target_sentence": "As described above, to communicate with the system, users' registration and authentication are needed.",
+    "context": [
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      },
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N07e4a4bdfbf28a50",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_st2Y0HDrEeSqnN80MQ2uGw",
+    "component_name": "Facade",
+    "target_sentence_id": 11,
+    "target_sentence": "The UserManagement component answers the requests for registration and authentication.",
+    "context": [
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      },
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      },
+      {
+        "sentence_id": 13,
+        "text": "When a user logs into the system, Media Store does not store the password in plain text, but rather the UserManagement component implements further functions to hash and salt the passwords."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N08345e9c044eb0c7",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_j5vZQLhEEeSNPorBlo7x9g",
+    "component_name": "Cache",
+    "target_sentence_id": 7,
+    "target_sentence": "Application business logic is provided by a central business logic component, called the MediaManagement component.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The main functionality, however, is provided by other components."
+      },
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N0886433c6d53e244",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_S-lawHDqEeSqnN80MQ2uGw",
+    "component_name": "AudioWatermarking",
+    "target_sentence_id": 24,
+    "target_sentence": "It stores user information and meta-data of audio files such as the name and the genre.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      },
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N08a1bee2ee4ab941",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 7,
+    "target_sentence": "Application business logic is provided by a central business logic component, called the MediaManagement component.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The main functionality, however, is provided by other components."
+      },
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N08c43dd6794d98f2",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_Fslt8OXSEeSa__lJ2-JCxw",
+    "component_name": "DownloadLoadBalancer",
+    "target_sentence_id": 17,
+    "target_sentence": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user.",
+    "context": [
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      },
+      {
+        "sentence_id": 19,
+        "text": "To allow users to download several files at a time, we provide the Packaging component, which archives multiple audio files into a single compressed file."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N08f71c2034e7065c",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_st2Y0HDrEeSqnN80MQ2uGw",
+    "component_name": "Facade",
+    "target_sentence_id": 19,
+    "target_sentence": "To allow users to download several files at a time, we provide the Packaging component, which archives multiple audio files into a single compressed file.",
+    "context": [
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      },
+      {
+        "sentence_id": 19,
+        "text": "To allow users to download several files at a time, we provide the Packaging component, which archives multiple audio files into a single compressed file."
+      },
+      {
+        "sentence_id": 20,
+        "text": "The ReEncoder component converts the bit rates of audio files."
+      },
+      {
+        "sentence_id": 21,
+        "text": "This can result in reduction of file sizes."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N0ef9d36e2fe1e0b1",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 34,
+    "target_sentence": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database.",
+    "context": [
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      },
+      {
+        "sentence_id": 33,
+        "text": "By contrast, all audio files are stored in a specific location (e.g., a dedicated file server or a local disk) to decouple the DataStorage from the database."
+      },
+      {
+        "sentence_id": 34,
+        "text": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database."
+      },
+      {
+        "sentence_id": 35,
+        "text": "Afterwards, based on the user request and the corresponding meta-data, the file will be retrieved from the DataStorage."
+      },
+      {
+        "sentence_id": 36,
+        "text": "When a user uploads a file, it will be stored in the DataStorage without any change."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N10caddf757d9ce55",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 24,
+    "target_sentence": "It stores user information and meta-data of audio files such as the name and the genre.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      },
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N1bc3a662be043a1e",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_9eK7YHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaAccess",
+    "target_sentence_id": 34,
+    "target_sentence": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database.",
+    "context": [
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      },
+      {
+        "sentence_id": 33,
+        "text": "By contrast, all audio files are stored in a specific location (e.g., a dedicated file server or a local disk) to decouple the DataStorage from the database."
+      },
+      {
+        "sentence_id": 34,
+        "text": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database."
+      },
+      {
+        "sentence_id": 35,
+        "text": "Afterwards, based on the user request and the corresponding meta-data, the file will be retrieved from the DataStorage."
+      },
+      {
+        "sentence_id": 36,
+        "text": "When a user uploads a file, it will be stored in the DataStorage without any change."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N1d56cf860a12c3d7",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_o10-YHDrEeSqnN80MQ2uGw",
+    "component_name": "Reencoding",
+    "target_sentence_id": 20,
+    "target_sentence": "The ReEncoder component converts the bit rates of audio files.",
+    "context": [
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      },
+      {
+        "sentence_id": 19,
+        "text": "To allow users to download several files at a time, we provide the Packaging component, which archives multiple audio files into a single compressed file."
+      },
+      {
+        "sentence_id": 20,
+        "text": "The ReEncoder component converts the bit rates of audio files."
+      },
+      {
+        "sentence_id": 21,
+        "text": "This can result in reduction of file sizes."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N27942e239aade98e",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_qxAiILg7EeSNPorBlo7x9g",
+    "component_name": "FileStorage",
+    "target_sentence_id": 35,
+    "target_sentence": "Afterwards, based on the user request and the corresponding meta-data, the file will be retrieved from the DataStorage.",
+    "context": [
+      {
+        "sentence_id": 33,
+        "text": "By contrast, all audio files are stored in a specific location (e.g., a dedicated file server or a local disk) to decouple the DataStorage from the database."
+      },
+      {
+        "sentence_id": 34,
+        "text": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database."
+      },
+      {
+        "sentence_id": 35,
+        "text": "Afterwards, based on the user request and the corresponding meta-data, the file will be retrieved from the DataStorage."
+      },
+      {
+        "sentence_id": 36,
+        "text": "When a user uploads a file, it will be stored in the DataStorage without any change."
+      },
+      {
+        "sentence_id": 37,
+        "text": "However, a download can cause re-encoding of the audio file."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N3708c96a514aebe3",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_ahv3gL0YEeSAHuL4ItXOLQ",
+    "component_name": "UserManagement",
+    "target_sentence_id": 13,
+    "target_sentence": "When a user logs into the system, Media Store does not store the password in plain text, but rather the UserManagement component implements further functions to hash and salt the passwords.",
+    "context": [
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      },
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      },
+      {
+        "sentence_id": 13,
+        "text": "When a user logs into the system, Media Store does not store the password in plain text, but rather the UserManagement component implements further functions to hash and salt the passwords."
+      },
+      {
+        "sentence_id": 14,
+        "text": "To reduce the risk of copyright infringements, all downloaded files are watermarked."
+      },
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N3c55c35fe3c09c21",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_9eK7YHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaAccess",
+    "target_sentence_id": 27,
+    "target_sentence": "The MediaAccess component encapsulates database access for meta-data of audio files.",
+    "context": [
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      },
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N52d041a728ecddbf",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 25,
+    "target_sentence": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component.",
+    "context": [
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N58bbbc2c110dbd06",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 32,
+    "target_sentence": "All salted hashes of passwords are also stored in the Database component.",
+    "context": [
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      },
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      },
+      {
+        "sentence_id": 33,
+        "text": "By contrast, all audio files are stored in a specific location (e.g., a dedicated file server or a local disk) to decouple the DataStorage from the database."
+      },
+      {
+        "sentence_id": 34,
+        "text": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N5f636420d820e5a6",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_h_QpkLhEEeSNPorBlo7x9g",
+    "component_name": "TagWatermarking",
+    "target_sentence_id": 17,
+    "target_sentence": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user.",
+    "context": [
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      },
+      {
+        "sentence_id": 19,
+        "text": "To allow users to download several files at a time, we provide the Packaging component, which archives multiple audio files into a single compressed file."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N6bb95d3c1e90ee34",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_p_EeYHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaManagement",
+    "target_sentence_id": 9,
+    "target_sentence": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests.",
+    "context": [
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N6d39eac75c4d4a52",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_qxAiILg7EeSNPorBlo7x9g",
+    "component_name": "FileStorage",
+    "target_sentence_id": 36,
+    "target_sentence": "When a user uploads a file, it will be stored in the DataStorage without any change.",
+    "context": [
+      {
+        "sentence_id": 34,
+        "text": "When a user requests files to download, the MediaAccess component fetches the associated meta-data from the Database."
+      },
+      {
+        "sentence_id": 35,
+        "text": "Afterwards, based on the user request and the corresponding meta-data, the file will be retrieved from the DataStorage."
+      },
+      {
+        "sentence_id": 36,
+        "text": "When a user uploads a file, it will be stored in the DataStorage without any change."
+      },
+      {
+        "sentence_id": 37,
+        "text": "However, a download can cause re-encoding of the audio file."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N7d3695ef653bb5bb",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_p_EeYHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaManagement",
+    "target_sentence_id": 8,
+    "target_sentence": "The MediaManagement component coordinates the communication of other components.",
+    "context": [
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N850b2077e07b026d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 23,
+    "target_sentence": "The Database component represents an actual database (e.g., MySQL).",
+    "context": [
+      {
+        "sentence_id": 21,
+        "text": "This can result in reduction of file sizes."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      },
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N89c4d8e4790e8312",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_tBjC0HDpEeSqnN80MQ2uGw",
+    "component_name": "UserDBAdapter",
+    "target_sentence_id": 12,
+    "target_sentence": "The UserDBAdapter component queries the database.",
+    "context": [
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The UserManagement component answers the requests for registration and authentication."
+      },
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      },
+      {
+        "sentence_id": 13,
+        "text": "When a user logs into the system, Media Store does not store the password in plain text, but rather the UserManagement component implements further functions to hash and salt the passwords."
+      },
+      {
+        "sentence_id": 14,
+        "text": "To reduce the risk of copyright infringements, all downloaded files are watermarked."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N8aab4a7f0bdcc9b9",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_tBjC0HDpEeSqnN80MQ2uGw",
+    "component_name": "UserDBAdapter",
+    "target_sentence_id": 30,
+    "target_sentence": "The UserDBAdapter component creates a query based on the user's request.",
+    "context": [
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      },
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "Na1c468bc1ff20d79",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_tBjC0HDpEeSqnN80MQ2uGw",
+    "component_name": "UserDBAdapter",
+    "target_sentence_id": 29,
+    "target_sentence": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data.",
+    "context": [
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      },
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "Na2baa8c3394fa584",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_st2Y0HDrEeSqnN80MQ2uGw",
+    "component_name": "Facade",
+    "target_sentence_id": 6,
+    "target_sentence": "In addition, users can browse, download, and upload audio files using the Facade component.",
+    "context": [
+      {
+        "sentence_id": 4,
+        "text": "After the user has logged into the system, he or she will be forwarded to a site to list the audio files."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The main functionality, however, is provided by other components."
+      },
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "N00175e303f88486e",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 41,
+    "target_sentence": "Every running instance of the TeaStore uses one single registry.",
+    "context": [
+      {
+        "sentence_id": 39,
+        "text": "Services are also required to send a heartbeat signal by re-registering periodically."
+      },
+      {
+        "sentence_id": 40,
+        "text": "Services missing their heartbeat for more than 10 s are assumed to be offline until the register function is called again."
+      },
+      {
+        "sentence_id": 41,
+        "text": "Every running instance of the TeaStore uses one single registry."
+      },
+      {
+        "sentence_id": 42,
+        "text": "The TeaStore is a test application."
+      },
+      {
+        "sentence_id": 43,
+        "text": "By limiting it to a single registry instance, it enables easy configuration of multiple parallel TeaStores with minimal configuration overhead."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N01bc8632b012a988",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_kgbngDVgEeqPG_FgW3bi6Q",
+    "component_name": "OrderBasedRecommender",
+    "target_sentence_id": 28,
+    "target_sentence": "It is trained using all existing orders.",
+    "context": [
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      },
+      {
+        "sentence_id": 28,
+        "text": "It is trained using all existing orders."
+      },
+      {
+        "sentence_id": 29,
+        "text": "Recommendations are generated based on the users current shopping cart, the user's previous orders and/or the item the user is currently looking at."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The item rating of the users are based on their purchases."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N01c98f4566b427b7",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_AiuxcDVdEeqPG_FgW3bi6Q",
+    "component_name": "Auth",
+    "target_sentence_id": 19,
+    "target_sentence": "Passwords are hashed using BCrypt.",
+    "context": [
+      {
+        "sentence_id": 17,
+        "text": "Before loading an image from the physical drive, a cache lookup will be performed and if the image is present, delivered directly from cache or from the physical drive otherwise."
+      },
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      },
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N01ea3ff772afe33a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_raxjcDVgEeqPG_FgW3bi6Q",
+    "component_name": "PopularityBasedRecommender",
+    "target_sentence_id": 34,
+    "target_sentence": "One CPU-intensive, calculating the item-rankings per user on-the-go and one memory-intensive, calculating the total user rating prediction matrix during the training phase.",
+    "context": [
+      {
+        "sentence_id": 32,
+        "text": "If the user is known, Slope One as item-based collaborative filtering is applied to calculate the recommendations."
+      },
+      {
+        "sentence_id": 33,
+        "text": "We implemented two versions of the algorithm."
+      },
+      {
+        "sentence_id": 34,
+        "text": "One CPU-intensive, calculating the item-rankings per user on-the-go and one memory-intensive, calculating the total user rating prediction matrix during the training phase."
+      },
+      {
+        "sentence_id": 35,
+        "text": "Furthermore, one order-based nearest-neighbor approach is available."
+      },
+      {
+        "sentence_id": 36,
+        "text": "Its recommendation time is dependent on the number of items in the current cart as well as the total number of stored orders."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N024a350052780589",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 27,
+    "target_sentence": "The Recommender is used to generate individual product recommendations for each user.",
+    "context": [
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      },
+      {
+        "sentence_id": 28,
+        "text": "It is trained using all existing orders."
+      },
+      {
+        "sentence_id": 29,
+        "text": "Recommendations are generated based on the users current shopping cart, the user's previous orders and/or the item the user is currently looking at."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0346cbf4f069718e",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_raxjcDVgEeqPG_FgW3bi6Q",
+    "component_name": "PopularityBasedRecommender",
+    "target_sentence_id": 12,
+    "target_sentence": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size.",
+    "context": [
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      },
+      {
+        "sentence_id": 11,
+        "text": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier."
+      },
+      {
+        "sentence_id": 12,
+        "text": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size."
+      },
+      {
+        "sentence_id": 13,
+        "text": "If the product ID or UI name is found but not in the requested size, the largest image will be loaded and scaled."
+      },
+      {
+        "sentence_id": 14,
+        "text": "The scaled image is stored for later use."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N034e964f6b9e58b2",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_lnx1oDVWEeqPG_FgW3bi6Q",
+    "component_name": "Persistence",
+    "target_sentence_id": 26,
+    "target_sentence": "As such, it also acts as a caching layer.",
+    "context": [
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      },
+      {
+        "sentence_id": 28,
+        "text": "It is trained using all existing orders."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N03dba8e451a6a8ac",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 23,
+    "target_sentence": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper.",
+    "context": [
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N03dc69cd889c9b84",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 15,
+    "target_sentence": "If the product ID or UI name and size is found, the image will be loaded and delivered.",
+    "context": [
+      {
+        "sentence_id": 13,
+        "text": "If the product ID or UI name is found but not in the requested size, the largest image will be loaded and scaled."
+      },
+      {
+        "sentence_id": 14,
+        "text": "The scaled image is stored for later use."
+      },
+      {
+        "sentence_id": 15,
+        "text": "If the product ID or UI name and size is found, the image will be loaded and delivered."
+      },
+      {
+        "sentence_id": 16,
+        "text": "To speed up image delivery, an in-memory cache with Least Frequently Used (LFU) replacemenent strategy is in place."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Before loading an image from the physical drive, a cache lookup will be performed and if the image is present, delivered directly from cache or from the physical drive otherwise."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N04cfa64738751c41",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_kgbngDVgEeqPG_FgW3bi6Q",
+    "component_name": "OrderBasedRecommender",
+    "target_sentence_id": 20,
+    "target_sentence": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie.",
+    "context": [
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      },
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0521a4d7a21a8756",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_AiuxcDVdEeqPG_FgW3bi6Q",
+    "component_name": "Auth",
+    "target_sentence_id": 22,
+    "target_sentence": "The Persistence service provides access to the data persisted in the relational database back-end.",
+    "context": [
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N06801263dc7cb85c",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_raxjcDVgEeqPG_FgW3bi6Q",
+    "component_name": "PopularityBasedRecommender",
+    "target_sentence_id": 27,
+    "target_sentence": "The Recommender is used to generate individual product recommendations for each user.",
+    "context": [
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      },
+      {
+        "sentence_id": 28,
+        "text": "It is trained using all existing orders."
+      },
+      {
+        "sentence_id": 29,
+        "text": "Recommendations are generated based on the users current shopping cart, the user's previous orders and/or the item the user is currently looking at."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N06a6daaa0a4057f3",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 24,
+    "target_sentence": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N070c6638c8872d00",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 34,
+    "target_sentence": "One CPU-intensive, calculating the item-rankings per user on-the-go and one memory-intensive, calculating the total user rating prediction matrix during the training phase.",
+    "context": [
+      {
+        "sentence_id": 32,
+        "text": "If the user is known, Slope One as item-based collaborative filtering is applied to calculate the recommendations."
+      },
+      {
+        "sentence_id": 33,
+        "text": "We implemented two versions of the algorithm."
+      },
+      {
+        "sentence_id": 34,
+        "text": "One CPU-intensive, calculating the item-rankings per user on-the-go and one memory-intensive, calculating the total user rating prediction matrix during the training phase."
+      },
+      {
+        "sentence_id": 35,
+        "text": "Furthermore, one order-based nearest-neighbor approach is available."
+      },
+      {
+        "sentence_id": 36,
+        "text": "Its recommendation time is dependent on the number of items in the current cart as well as the total number of stored orders."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N07ce549114c2f98c",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_AiuxcDVdEeqPG_FgW3bi6Q",
+    "component_name": "Auth",
+    "target_sentence_id": 18,
+    "target_sentence": "The Auth service handles user and session authentication.",
+    "context": [
+      {
+        "sentence_id": 16,
+        "text": "To speed up image delivery, an in-memory cache with Least Frequently Used (LFU) replacemenent strategy is in place."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Before loading an image from the physical drive, a cache lookup will be performed and if the image is present, delivered directly from cache or from the physical drive otherwise."
+      },
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      },
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N097139dbad4cb7ff",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_raxjcDVgEeqPG_FgW3bi6Q",
+    "component_name": "PopularityBasedRecommender",
+    "target_sentence_id": 19,
+    "target_sentence": "Passwords are hashed using BCrypt.",
+    "context": [
+      {
+        "sentence_id": 17,
+        "text": "Before loading an image from the physical drive, a cache lookup will be performed and if the image is present, delivered directly from cache or from the physical drive otherwise."
+      },
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      },
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N099b818193951368",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_YkXeIDVgEeqPG_FgW3bi6Q",
+    "component_name": "SlopeOneRecommender",
+    "target_sentence_id": 16,
+    "target_sentence": "To speed up image delivery, an in-memory cache with Least Frequently Used (LFU) replacemenent strategy is in place.",
+    "context": [
+      {
+        "sentence_id": 14,
+        "text": "The scaled image is stored for later use."
+      },
+      {
+        "sentence_id": 15,
+        "text": "If the product ID or UI name and size is found, the image will be loaded and delivered."
+      },
+      {
+        "sentence_id": 16,
+        "text": "To speed up image delivery, an in-memory cache with Least Frequently Used (LFU) replacemenent strategy is in place."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Before loading an image from the physical drive, a cache lookup will be performed and if the image is present, delivered directly from cache or from the physical drive otherwise."
+      },
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N09d82ca8e61db9b4",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_YkXeIDVgEeqPG_FgW3bi6Q",
+    "component_name": "SlopeOneRecommender",
+    "target_sentence_id": 24,
+    "target_sentence": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0a80221a15b11b33",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_kgbngDVgEeqPG_FgW3bi6Q",
+    "component_name": "OrderBasedRecommender",
+    "target_sentence_id": 5,
+    "target_sentence": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files.",
+    "context": [
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0c5a15316f4a802a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_lnx1oDVWEeqPG_FgW3bi6Q",
+    "component_name": "Persistence",
+    "target_sentence_id": 23,
+    "target_sentence": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper.",
+    "context": [
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0c7b7eb86b8319af",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_iaElgKpwEeqHXcsU55mirw",
+    "component_name": "PreprocessedSlopeOneRecommender",
+    "target_sentence_id": 4,
+    "target_sentence": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0c8594483d7b9f93",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 19,
+    "target_sentence": "Passwords are hashed using BCrypt.",
+    "context": [
+      {
+        "sentence_id": 17,
+        "text": "Before loading an image from the physical drive, a cache lookup will be performed and if the image is present, delivered directly from cache or from the physical drive otherwise."
+      },
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      },
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N0d1c881fd9f9dd1a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_kgbngDVgEeqPG_FgW3bi6Q",
+    "component_name": "OrderBasedRecommender",
+    "target_sentence_id": 10,
+    "target_sentence": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML.",
+    "context": [
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      },
+      {
+        "sentence_id": 11,
+        "text": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier."
+      },
+      {
+        "sentence_id": 12,
+        "text": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N21e30d7548944c38",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 2,
+    "target_sentence": "The WebUI service retrieves images from the Image Provider.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "The TeaStore consists of 5 replicatable services and a single Registry instance."
+      },
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N2ec0a63ef22e891c",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_lnx1oDVWEeqPG_FgW3bi6Q",
+    "component_name": "Persistence",
+    "target_sentence_id": 25,
+    "target_sentence": "The persistence provider uses a second level entity cache provided by the JPA implementation.",
+    "context": [
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N321696bf8b6c99e3",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 11,
+    "target_sentence": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier.",
+    "context": [
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      },
+      {
+        "sentence_id": 11,
+        "text": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier."
+      },
+      {
+        "sentence_id": 12,
+        "text": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size."
+      },
+      {
+        "sentence_id": 13,
+        "text": "If the product ID or UI name is found but not in the requested size, the largest image will be loaded and scaled."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N3f9db67e81049bd7",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 7,
+    "target_sentence": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N40f6dff80e48ab9a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 12,
+    "target_sentence": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size.",
+    "context": [
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      },
+      {
+        "sentence_id": 11,
+        "text": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier."
+      },
+      {
+        "sentence_id": 12,
+        "text": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size."
+      },
+      {
+        "sentence_id": 13,
+        "text": "If the product ID or UI name is found but not in the requested size, the largest image will be loaded and scaled."
+      },
+      {
+        "sentence_id": 14,
+        "text": "The scaled image is stored for later use."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N59c8915fb364a1f0",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_m3fxEDVWEeqPG_FgW3bi6Q",
+    "component_name": "Recommender",
+    "target_sentence_id": 28,
+    "target_sentence": "It is trained using all existing orders.",
+    "context": [
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      },
+      {
+        "sentence_id": 28,
+        "text": "It is trained using all existing orders."
+      },
+      {
+        "sentence_id": 29,
+        "text": "Recommendations are generated based on the users current shopping cart, the user's previous orders and/or the item the user is currently looking at."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The item rating of the users are based on their purchases."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N6ac80c0688c8ab7c",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 10,
+    "target_sentence": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML.",
+    "context": [
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      },
+      {
+        "sentence_id": 11,
+        "text": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier."
+      },
+      {
+        "sentence_id": 12,
+        "text": "If the product ID or UI name is not available to the Image Provider, a standard \"not found\" image will be delivered in the correct size."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N7d43e9cc6364f3fb",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_m3fxEDVWEeqPG_FgW3bi6Q",
+    "component_name": "Recommender",
+    "target_sentence_id": 4,
+    "target_sentence": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N7fd5f369b2576f08",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_dhM6oDVXEeqPG_FgW3bi6Q",
+    "component_name": "Registry",
+    "target_sentence_id": 41,
+    "target_sentence": "Every running instance of the TeaStore uses one single registry.",
+    "context": [
+      {
+        "sentence_id": 39,
+        "text": "Services are also required to send a heartbeat signal by re-registering periodically."
+      },
+      {
+        "sentence_id": 40,
+        "text": "Services missing their heartbeat for more than 10 s are assumed to be offline until the register function is called again."
+      },
+      {
+        "sentence_id": 41,
+        "text": "Every running instance of the TeaStore uses one single registry."
+      },
+      {
+        "sentence_id": 42,
+        "text": "The TeaStore is a test application."
+      },
+      {
+        "sentence_id": 43,
+        "text": "By limiting it to a single registry instance, it enables easy configuration of multiple parallel TeaStores with minimal configuration overhead."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N8b238f8db5bbfb73",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_dhM6oDVXEeqPG_FgW3bi6Q",
+    "component_name": "Registry",
+    "target_sentence_id": 1,
+    "target_sentence": "The TeaStore consists of 5 replicatable services and a single Registry instance.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "The TeaStore consists of 5 replicatable services and a single Registry instance."
+      },
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N8e7b7b557e29cd05",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_lnx1oDVWEeqPG_FgW3bi6Q",
+    "component_name": "Persistence",
+    "target_sentence_id": 22,
+    "target_sentence": "The Persistence service provides access to the data persisted in the relational database back-end.",
+    "context": [
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "N95d2443b8b32930a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_lnx1oDVWEeqPG_FgW3bi6Q",
+    "component_name": "Persistence",
+    "target_sentence_id": 24,
+    "target_sentence": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It features endpoints for general CRUD-Operations (Create, Read, Update, Delete) for the persistent entities."
+      },
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Na00cc1ab563f5ab3",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_dhM6oDVXEeqPG_FgW3bi6Q",
+    "component_name": "Registry",
+    "target_sentence_id": 38,
+    "target_sentence": "Service instances register themselves at the registry on startup.",
+    "context": [
+      {
+        "sentence_id": 36,
+        "text": "Its recommendation time is dependent on the number of items in the current cart as well as the total number of stored orders."
+      },
+      {
+        "sentence_id": 37,
+        "text": "The Registry provides information about how many service instances are online for each service and where they are located."
+      },
+      {
+        "sentence_id": 38,
+        "text": "Service instances register themselves at the registry on startup."
+      },
+      {
+        "sentence_id": 39,
+        "text": "Services are also required to send a heartbeat signal by re-registering periodically."
+      },
+      {
+        "sentence_id": 40,
+        "text": "Services missing their heartbeat for more than 10 s are assumed to be offline until the register function is called again."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Na2cad1b7e49e46c9",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_AiuxcDVdEeqPG_FgW3bi6Q",
+    "component_name": "Auth",
+    "target_sentence_id": 3,
+    "target_sentence": "Users are authenticated by the Auth service.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "The TeaStore consists of 5 replicatable services and a single Registry instance."
+      },
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Na8ce744c1c143c26",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_m3fxEDVWEeqPG_FgW3bi6Q",
+    "component_name": "Recommender",
+    "target_sentence_id": 27,
+    "target_sentence": "The Recommender is used to generate individual product recommendations for each user.",
+    "context": [
+      {
+        "sentence_id": 25,
+        "text": "The persistence provider uses a second level entity cache provided by the JPA implementation."
+      },
+      {
+        "sentence_id": 26,
+        "text": "As such, it also acts as a caching layer."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The Recommender is used to generate individual product recommendations for each user."
+      },
+      {
+        "sentence_id": 28,
+        "text": "It is trained using all existing orders."
+      },
+      {
+        "sentence_id": 29,
+        "text": "Recommendations are generated based on the users current shopping cart, the user's previous orders and/or the item the user is currently looking at."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Nb6879754bd325073",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_dhM6oDVXEeqPG_FgW3bi6Q",
+    "component_name": "Registry",
+    "target_sentence_id": 43,
+    "target_sentence": "By limiting it to a single registry instance, it enables easy configuration of multiple parallel TeaStores with minimal configuration overhead.",
+    "context": [
+      {
+        "sentence_id": 41,
+        "text": "Every running instance of the TeaStore uses one single registry."
+      },
+      {
+        "sentence_id": 42,
+        "text": "The TeaStore is a test application."
+      },
+      {
+        "sentence_id": 43,
+        "text": "By limiting it to a single registry instance, it enables easy configuration of multiple parallel TeaStores with minimal configuration overhead."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Nc69403232e45f242",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 8,
+    "target_sentence": "The UI provides a status page at link indicating the current state of the TeaStore.",
+    "context": [
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  }
+]

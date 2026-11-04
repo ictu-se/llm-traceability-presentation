@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "planned_calls": 120,
+  "unique_query_content": 60,
+  "only_outer_question_ids_and_question_order_changed": true,
+  "per_question_context_and_visible_id_permutation_preserved": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "actual_calls": 200,
+  "unique_job_ids": 200,
+  "unique_questions": 60,
+  "observations": 1520,
+  "factorial_effect_rows": 30,
+  "all_layout_contributions_reconcile": true,
+  "frozen_inputs_verified": true
+}

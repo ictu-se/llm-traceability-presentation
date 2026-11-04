@@ -1,0 +1,59 @@
+Independent query identifiers and order: prospective audit amendment, 2026-11-03
+
+Reason for the separate arm
+During manuscript preparation, while the original200-call replication was running,
+we audited its frozen inputs before computing its aggregate model accuracy/effects.
+The stratified hash selection had also been used to assign question IDs and sort
+queries. With many more available nonlinks than links, the selected positive IDs
+tend to be numerically higher. Within-project identifier-rank AUC is1.0 for BBB,
+TEAMMATES, MediaStore and TeaStore, and0.8611 for JabRef. This demonstrates an
+input/reference association, not that a particular LLM exploited it. The same
+identifiers/order appear in all old factorial cells, so paired effects remain
+well-defined for that input organization, but absolute accuracy and portability
+can be affected. The original protocol and outputs are not changed or hidden.
+
+Fixed new representation before its inference
+Use EXACTLY the same60 selected pairs and published labels; add no independent
+questions, projects, people or gold labels. For each query assign an ID by
+'I'+SHA256('aciids-independent-query-identity-v1|family|component_id|sentence_id')[:16].
+This salt is fixed without optimizing its label association. Order each project's
+questions by a separate SHA256('aciids-independent-query-order-v1|family|old_id').
+Do not sort by the new ID, reference label or selection score. Do not retune the
+salt/order if the observed AUC is not exactly0.5; finite-sample variation is retained.
+The OLD per-question visible-sentence-ID permutation is preserved by constructing
+the payload with original query IDs before replacing only the outer question IDs.
+Target text, source-sentence locators, source-context order/content, system prompt,
+model settings and response-field semantics otherwise remain identical. All four
+layout/locator cells use the same independently assigned query IDs and order.
+
+Budget and scheduling
+Three models GPT-OSS/Mistral/Gemma, seeds17/43, five projects, four input cells:
+120 fresh calls, one12-question batch per project. No new singleton calls are
+claimed. This worker waits for the original200-call worker to complete, then runs
+serially; no concurrent model inference. Stop without starting if that worker fails.
+No success-based reruns or repairs. Requests/outputs and failures remain preserved.
+
+Analysis fixed before inference
+Apply the original exact batch/item validation, metrics, paired differences and
+failure partition. Output60 unique queries x3 models x2 seeds x4 cells =1440 item
+decisions, not1440 independent cases. Report every project/model/seed cell.
+Report old-ID/order versus new-ID/order paired changes on the same60 queries and
+both seeds. IDs AND order change together; this is a JOINT representation control,
+not an isolated causal identification of identifier magnitude or position effects.
+Compare layout/locator contrasts across the two representations without selecting
+the best seed/model. Keep original singleton results restricted to their original
+ID/order organization; do not claim a singleton arm for the new representation.
+The independent project count is5 and all families had been inspected previously.
+
+Manuscript use and provenance
+The new representation supplies the main independently-ID-assigned factorial
+results; the original replication supplies a disclosed representation sensitivity
+and batching diagnostic. This documented amendment is not a retroactive claim that
+the original planned endpoint used these IDs. Existing discovery/exploratory
+results remain explicit historical cohorts. Source/reference quality limitations,
+case-control sampling, two-seed limits and no-new-human-evaluation scope remain.
+Store the original running-state snapshot at amendment freeze, the old/new ID/order
+maps, per-project numeric-ID AUCs, exact requests, model digests and all hashes.
+Tables/figures are generated only from actual data; no presumed improvement is
+written into the paper. Total paper call count after completion will be624:
+304 historical P10 calls +200 original replication calls +120 new control calls.

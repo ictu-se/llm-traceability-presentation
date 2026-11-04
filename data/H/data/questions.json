@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "R000e81c1d143023b",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_9wZIcFkHEeyewPSmlgszyA",
+    "component_name": "FSESL",
+    "target_sentence_id": 37,
+    "target_sentence": "BigBlueButton web application is a Java-based application written in Scala.",
+    "context": [
+      {
+        "sentence_id": 35,
+        "text": "See \"Automatically apply configuration changes on restart\"."
+      },
+      {
+        "sentence_id": 36,
+        "text": "BBB web."
+      },
+      {
+        "sentence_id": 37,
+        "text": "BigBlueButton web application is a Java-based application written in Scala."
+      },
+      {
+        "sentence_id": 38,
+        "text": "It implements the BigBlueButton API and holds a copy of the meeting state."
+      },
+      {
+        "sentence_id": 39,
+        "text": "The BigBlueButton API provides a third-party integration (such as the BigBlueButtonBN plugin for Moodle) with an endpoint to control the BigBlueButton server."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R002236f391bf0b13",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_kvWs4FkHEeyewPSmlgszyA",
+    "component_name": "Recording Service",
+    "target_sentence_id": 55,
+    "target_sentence": "The meeting business logic is in the MeetingActor.",
+    "context": [
+      {
+        "sentence_id": 53,
+        "text": "It provides the list of users, chat, whiteboard, presentations in a meeting."
+      },
+      {
+        "sentence_id": 54,
+        "text": "Below is a diagram of the different components of Apps Akka."
+      },
+      {
+        "sentence_id": 55,
+        "text": "The meeting business logic is in the MeetingActor."
+      },
+      {
+        "sentence_id": 56,
+        "text": "This is where information about the meeting is stored and where all messages for a meeting is processed."
+      },
+      {
+        "sentence_id": 57,
+        "text": "FSESL akka."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R0056443097c2a984",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_1lMqsKESEeu-mYqkDskRow",
+    "component_name": "UI",
+    "target_sentence_id": 194,
+    "target_sentence": "The Client component contains scripts that can connect directly to the application back-end for administrative purposes, such as migrating data to a new schema and calculating statistics.",
+    "context": [
+      {
+        "sentence_id": 192,
+        "text": "x.e2e contains system test cases for testing the application as a whole."
+      },
+      {
+        "sentence_id": 193,
+        "text": "x.lnp contains load and performance tests (experimental)."
+      },
+      {
+        "sentence_id": 194,
+        "text": "The Client component contains scripts that can connect directly to the application back-end for administrative purposes, such as migrating data to a new schema and calculating statistics."
+      },
+      {
+        "sentence_id": 195,
+        "text": "Package overview contains client.util, client.remoteapi, client.scripts."
+      },
+      {
+        "sentence_id": 196,
+        "text": "client.util contains helpers needed for client scripts."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R005869b98576b897",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_3LCnIKESEeu-mYqkDskRow",
+    "component_name": "Logic",
+    "target_sentence_id": 101,
+    "target_sentence": "Entity already exists throws EntityAlreadyExistsException (escalated from Storage level).",
+    "context": [
+      {
+        "sentence_id": 99,
+        "text": "Null parameters causes an assertion failure."
+      },
+      {
+        "sentence_id": 100,
+        "text": "Invalid parameters throws InvalidParametersException."
+      },
+      {
+        "sentence_id": 101,
+        "text": "Entity already exists throws EntityAlreadyExistsException (escalated from Storage level)."
+      },
+      {
+        "sentence_id": 102,
+        "text": "To API for retrieving entities the following information are presented."
+      },
+      {
+        "sentence_id": 103,
+        "text": "Attempting to retrieve objects using null parameters causes an assertion failure."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R0065b485fd91f2c0",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_GaP8QKETEeu-mYqkDskRow",
+    "component_name": "Client",
+    "target_sentence_id": 165,
+    "target_sentence": "This structure can be used to send results of a feedback session (e.g., when showing a feedback session report to an instructor).",
+    "context": [
+      {
+        "sentence_id": 163,
+        "text": "Test Driver can use the DataBundle in this manner to send an arbitrary number of objects to be persisted in the database."
+      },
+      {
+        "sentence_id": 164,
+        "text": "This structure can be used to transfer data of a course (e.g., when constructing the home page for an instructor)."
+      },
+      {
+        "sentence_id": 165,
+        "text": "This structure can be used to send results of a feedback session (e.g., when showing a feedback session report to an instructor)."
+      },
+      {
+        "sentence_id": 166,
+        "text": "Some of these classes are methodless and thus more of a data structure rather than a class."
+      },
+      {
+        "sentence_id": 167,
+        "text": "These classes use public variables for data for easy access."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R006b95c91100c93b",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_0e5u8FkHEeyewPSmlgszyA",
+    "component_name": "HTML5 Client",
+    "target_sentence_id": 48,
+    "target_sentence": "Redis DB.",
+    "context": [
+      {
+        "sentence_id": 46,
+        "text": "Redis PubSub."
+      },
+      {
+        "sentence_id": 47,
+        "text": "Redis PubSub provides a communication channel between different applications running on the BigBlueButton server."
+      },
+      {
+        "sentence_id": 48,
+        "text": "Redis DB."
+      },
+      {
+        "sentence_id": 49,
+        "text": "When a meeting is recorded, all events are stored in Redis DB."
+      },
+      {
+        "sentence_id": 50,
+        "text": "When the meeting ends, the Recording Processor will take all the recorded events as well as the different raw (PDF, WAV, FLV) files for processing."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R008ae4b726f497ae",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_9wZIcFkHEeyewPSmlgszyA",
+    "component_name": "FSESL",
+    "target_sentence_id": 61,
+    "target_sentence": "FreeSWITCH.",
+    "context": [
+      {
+        "sentence_id": 59,
+        "text": "This allows others who are using voice conference systems other than FreeSWITCH to easily create their own integration."
+      },
+      {
+        "sentence_id": 60,
+        "text": "Communication between apps and FreeSWITCH Event Socket Layer (fsels) uses messages through redis pubsub."
+      },
+      {
+        "sentence_id": 61,
+        "text": "FreeSWITCH."
+      },
+      {
+        "sentence_id": 62,
+        "text": "We think FreeSWITCH is an amazing piece of software for handling audio."
+      },
+      {
+        "sentence_id": 63,
+        "text": "FreeSWITCH provides the voice conferencing capability in BigBlueButton."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R0096e987157275ee",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_KGVMcKETEeu-mYqkDskRow",
+    "component_name": "GAE Datastore",
+    "target_sentence_id": 8,
+    "target_sentence": "The main logic of the application is in POJOs (Plain Old Java Objects).",
+    "context": [
+      {
+        "sentence_id": 6,
+        "text": "The initial page request is sent to the server over HTTP, and requests for data are sent asynchronously with AJAX."
+      },
+      {
+        "sentence_id": 7,
+        "text": "In the UI Server the entry point for the application back end logic is designed as a REST-ful controller."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The main logic of the application is in POJOs (Plain Old Java Objects)."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The storage layer of the application uses the persistence framework provided by GAE Datastore, a NoSQL database."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The following explains the use of the Test Driver."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R009a43e318016f3a",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_4yx-8FkHEeyewPSmlgszyA",
+    "component_name": "BBB web",
+    "target_sentence_id": 15,
+    "target_sentence": "Scalability of HTML5 server component.",
+    "context": [
+      {
+        "sentence_id": 13,
+        "text": "Updates to MongoDB on the server side are automatically pushed to MiniMongo on the client side."
+      },
+      {
+        "sentence_id": 14,
+        "text": "The following diagram gives an overview of the architecture of the HTML5 client and its communications with the other components in BigBlueButton."
+      },
+      {
+        "sentence_id": 15,
+        "text": "Scalability of HTML5 server component."
+      },
+      {
+        "sentence_id": 16,
+        "text": "BigBlueButton 2.2 used a single nodejs process for all client-side communication."
+      },
+      {
+        "sentence_id": 17,
+        "text": "This process would start to bottleneck (the nodejs process, running on a single CPU core, started to use 100% of the core)."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R00aa04554c4fae4d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_tBjC0HDpEeSqnN80MQ2uGw",
+    "component_name": "UserDBAdapter",
+    "target_sentence_id": 14,
+    "target_sentence": "To reduce the risk of copyright infringements, all downloaded files are watermarked.",
+    "context": [
+      {
+        "sentence_id": 12,
+        "text": "The UserDBAdapter component queries the database."
+      },
+      {
+        "sentence_id": 13,
+        "text": "When a user logs into the system, Media Store does not store the password in plain text, but rather the UserManagement component implements further functions to hash and salt the passwords."
+      },
+      {
+        "sentence_id": 14,
+        "text": "To reduce the risk of copyright infringements, all downloaded files are watermarked."
+      },
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R00bd33872f310499",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_tBjC0HDpEeSqnN80MQ2uGw",
+    "component_name": "UserDBAdapter",
+    "target_sentence_id": 8,
+    "target_sentence": "The MediaManagement component coordinates the communication of other components.",
+    "context": [
+      {
+        "sentence_id": 6,
+        "text": "In addition, users can browse, download, and upload audio files using the Facade component."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Application business logic is provided by a central business logic component, called the MediaManagement component."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The MediaManagement component coordinates the communication of other components."
+      },
+      {
+        "sentence_id": 9,
+        "text": "Furthermore, it fetches audio files from a specific location (e.g., a dedicated file server or a local disk) when processing download requests."
+      },
+      {
+        "sentence_id": 10,
+        "text": "As described above, to communicate with the system, users' registration and authentication are needed."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R00bdf9f390d950e2",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_AiuxcDVdEeqPG_FgW3bi6Q",
+    "component_name": "Auth",
+    "target_sentence_id": 20,
+    "target_sentence": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie.",
+    "context": [
+      {
+        "sentence_id": 18,
+        "text": "The Auth service handles user and session authentication."
+      },
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R00c3aee6ca83ce69",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_3LCnIKESEeu-mYqkDskRow",
+    "component_name": "Logic",
+    "target_sentence_id": 9,
+    "target_sentence": "The storage layer of the application uses the persistence framework provided by GAE Datastore, a NoSQL database.",
+    "context": [
+      {
+        "sentence_id": 7,
+        "text": "In the UI Server the entry point for the application back end logic is designed as a REST-ful controller."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The main logic of the application is in POJOs (Plain Old Java Objects)."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The storage layer of the application uses the persistence framework provided by GAE Datastore, a NoSQL database."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The following explains the use of the Test Driver."
+      },
+      {
+        "sentence_id": 11,
+        "text": "TEAMMATES makes heavy use of automated regression testing."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R00ca2cfe4f91a377",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_0e5u8FkHEeyewPSmlgszyA",
+    "component_name": "HTML5 Client",
+    "target_sentence_id": 28,
+    "target_sentence": "Frontends still require MeetingStarted and MeetingEnded events to create/destroy per-meeting event processing queues.",
+    "context": [
+      {
+        "sentence_id": 26,
+        "text": "Frontends receive other DDP events including method calls to send events to akka-apps."
+      },
+      {
+        "sentence_id": 27,
+        "text": "Frontends handle completely the Streamer redis events, i.e., Cursor, Annotations, External video share."
+      },
+      {
+        "sentence_id": 28,
+        "text": "Frontends still require MeetingStarted and MeetingEnded events to create/destroy per-meeting event processing queues."
+      },
+      {
+        "sentence_id": 29,
+        "text": "Backends handle all the non-streamer events."
+      },
+      {
+        "sentence_id": 30,
+        "text": "If more than one backend is running, bbb-web splits the load in round-robin fashion by assigning an instanceId."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R00d6eb792254707d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_o10-YHDrEeSqnN80MQ2uGw",
+    "component_name": "Reencoding",
+    "target_sentence_id": 24,
+    "target_sentence": "It stores user information and meta-data of audio files such as the name and the genre.",
+    "context": [
+      {
+        "sentence_id": 22,
+        "text": "The persistence tier contains components that are concerned with the storage of audio files and their meta-data."
+      },
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R00fc58eaf7303a2d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_ahv3gL0YEeSAHuL4ItXOLQ",
+    "component_name": "UserManagement",
+    "target_sentence_id": 16,
+    "target_sentence": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component.",
+    "context": [
+      {
+        "sentence_id": 14,
+        "text": "To reduce the risk of copyright infringements, all downloaded files are watermarked."
+      },
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R01029642f3e5fb84",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_AiuxcDVdEeqPG_FgW3bi6Q",
+    "component_name": "Auth",
+    "target_sentence_id": 9,
+    "target_sentence": "The status view lists the instance count and hosts for all registered service instances.",
+    "context": [
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The Image Provider delivers images to the WebUI as base64 encoded strings to embed them in the final HTML."
+      },
+      {
+        "sentence_id": 11,
+        "text": "It matches the provided product ID or UI name (the filename for images not representing a product and therefore without product ID) and the image size to a unique image identifier."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R0119d4cffc4f2e6d",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_GaP8QKETEeu-mYqkDskRow",
+    "component_name": "Client",
+    "target_sentence_id": 124,
+    "target_sentence": "Hiding the persistable objects.",
+    "context": [
+      {
+        "sentence_id": 122,
+        "text": "Hiding the complexities of datastore from the Logic component."
+      },
+      {
+        "sentence_id": 123,
+        "text": "All GQL queries are to be contained inside the Storage component."
+      },
+      {
+        "sentence_id": 124,
+        "text": "Hiding the persistable objects."
+      },
+      {
+        "sentence_id": 125,
+        "text": "Classes in the storage.entity package are not visible outside this component to hide information specific to data persistence."
+      },
+      {
+        "sentence_id": 126,
+        "text": "Instead, a corresponding non-persistent data transfer object named Attributes (e.g., CourseAttributes is the data transfer object for Course entities) object is returned."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R011ea877584bde12",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_He3LoEl4Ee243f2e4VWs6w",
+    "component_name": "logic",
+    "target_sentence_id": 11,
+    "target_sentence": "The preferences represents all information customizable by a user for her personal needs.",
+    "context": [
+      {
+        "sentence_id": 9,
+        "text": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The cli package bundles classes that are responsible for JabRef’s command line interface."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The preferences represents all information customizable by a user for her personal needs."
+      },
+      {
+        "sentence_id": 12,
+        "text": "We use an event bus to publish events from the model to the other layers."
+      },
+      {
+        "sentence_id": 13,
+        "text": "This allows us to keep the architecture but still react upon changes within the core in the outer layers."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R012b5b668244e58d",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_ouzFYDVgEeqPG_FgW3bi6Q",
+    "component_name": "DummyRecommender",
+    "target_sentence_id": 4,
+    "target_sentence": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R0136ebca0d4f1480",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_raxjcDVgEeqPG_FgW3bi6Q",
+    "component_name": "PopularityBasedRecommender",
+    "target_sentence_id": 21,
+    "target_sentence": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering.",
+    "context": [
+      {
+        "sentence_id": 19,
+        "text": "Passwords are hashed using BCrypt."
+      },
+      {
+        "sentence_id": 20,
+        "text": "To validate sessions, the SessionBlob is salted and hashed using SHA512 and stored in a cookie."
+      },
+      {
+        "sentence_id": 21,
+        "text": "When a SessionBlob is received, the cookie content is re-salted and checked against the hash to check for session tampering."
+      },
+      {
+        "sentence_id": 22,
+        "text": "The Persistence service provides access to the data persisted in the relational database back-end."
+      },
+      {
+        "sentence_id": 23,
+        "text": "It maps the relational entities to the JSON entity objects passed between services using the EclipseLink JPA ORM mapper."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R0177471cddb2b564",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_YkXeIDVgEeqPG_FgW3bi6Q",
+    "component_name": "SlopeOneRecommender",
+    "target_sentence_id": 42,
+    "target_sentence": "The TeaStore is a test application.",
+    "context": [
+      {
+        "sentence_id": 40,
+        "text": "Services missing their heartbeat for more than 10 s are assumed to be offline until the register function is called again."
+      },
+      {
+        "sentence_id": 41,
+        "text": "Every running instance of the TeaStore uses one single registry."
+      },
+      {
+        "sentence_id": 42,
+        "text": "The TeaStore is a test application."
+      },
+      {
+        "sentence_id": 43,
+        "text": "By limiting it to a single registry instance, it enables easy configuration of multiple parallel TeaStores with minimal configuration overhead."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R01c98bb9ffe2bd0a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_raxjcDVgEeqPG_FgW3bi6Q",
+    "component_name": "PopularityBasedRecommender",
+    "target_sentence_id": 4,
+    "target_sentence": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R020763719d5c882c",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_9eK7YHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaAccess",
+    "target_sentence_id": 30,
+    "target_sentence": "The UserDBAdapter component creates a query based on the user's request.",
+    "context": [
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      },
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R02323704ab87ec88",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_9JlCIKESEeu-mYqkDskRow",
+    "component_name": "Storage",
+    "target_sentence_id": 120,
+    "target_sentence": "In particular, it is reponsible for the following.",
+    "context": [
+      {
+        "sentence_id": 118,
+        "text": "The Storage component performs CRUD (Create, Read, Update, Delete) operations on data entities individually."
+      },
+      {
+        "sentence_id": 119,
+        "text": "It contains minimal logic beyond what is directly relevant to CRUD operations."
+      },
+      {
+        "sentence_id": 120,
+        "text": "In particular, it is reponsible for the following."
+      },
+      {
+        "sentence_id": 121,
+        "text": "Validating data inside entities before creating/updating them, to ensure they are in a valid state."
+      },
+      {
+        "sentence_id": 122,
+        "text": "Hiding the complexities of datastore from the Logic component."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R0383340d16d456a1",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 2,
+    "target_sentence": "To meet the user authentication requirement, registration and log-in have to be offered.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "One of the main components of Media Store is a server-side web front end, namely the Facade component, which delivers websites to the users and provides session management."
+      },
+      {
+        "sentence_id": 2,
+        "text": "To meet the user authentication requirement, registration and log-in have to be offered."
+      },
+      {
+        "sentence_id": 3,
+        "text": "To this end, the Facade component delivers the corresponding registration and log-in pages to users."
+      },
+      {
+        "sentence_id": 4,
+        "text": "After the user has logged into the system, he or she will be forwarded to a site to list the audio files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R054ed5f837afc990",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_1lMqsKESEeu-mYqkDskRow",
+    "component_name": "UI",
+    "target_sentence_id": 5,
+    "target_sentence": "This UI is a single HTML page generated by Angular framework.",
+    "context": [
+      {
+        "sentence_id": 3,
+        "text": "Given above is an overview of the main components."
+      },
+      {
+        "sentence_id": 4,
+        "text": "The UI Browser seen by users consists of Web pages containing HTML, CSS for styling and JavaScript for client-side interactions such as sorting, input validation, etc.."
+      },
+      {
+        "sentence_id": 5,
+        "text": "This UI is a single HTML page generated by Angular framework."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The initial page request is sent to the server over HTTP, and requests for data are sent asynchronously with AJAX."
+      },
+      {
+        "sentence_id": 7,
+        "text": "In the UI Server the entry point for the application back end logic is designed as a REST-ful controller."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R06c43dfdf1fa62f7",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_nwrCMFwPEeyiuNx_RO7j-Q",
+    "component_name": "FreeSWITCH",
+    "target_sentence_id": 66,
+    "target_sentence": "FreeSWITCH can also be integrated with VOIP providers so that users who are not able to join using the headset will be able to call in using their phone.",
+    "context": [
+      {
+        "sentence_id": 64,
+        "text": "Users are able to join the voice conference through the headset."
+      },
+      {
+        "sentence_id": 65,
+        "text": "Users joining through Google Chrome or Mozilla Firefox are able to take advantage of higher quality audio by connecting using WebRTC."
+      },
+      {
+        "sentence_id": 66,
+        "text": "FreeSWITCH can also be integrated with VOIP providers so that users who are not able to join using the headset will be able to call in using their phone."
+      },
+      {
+        "sentence_id": 67,
+        "text": "Kurento and WebRTC-SFU."
+      },
+      {
+        "sentence_id": 68,
+        "text": "Kurento Media Server KMS is a media server that implements both SFU and MCU models."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R07267c81d446f7c6",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_nwrCMFwPEeyiuNx_RO7j-Q",
+    "component_name": "FreeSWITCH",
+    "target_sentence_id": 63,
+    "target_sentence": "FreeSWITCH provides the voice conferencing capability in BigBlueButton.",
+    "context": [
+      {
+        "sentence_id": 61,
+        "text": "FreeSWITCH."
+      },
+      {
+        "sentence_id": 62,
+        "text": "We think FreeSWITCH is an amazing piece of software for handling audio."
+      },
+      {
+        "sentence_id": 63,
+        "text": "FreeSWITCH provides the voice conferencing capability in BigBlueButton."
+      },
+      {
+        "sentence_id": 64,
+        "text": "Users are able to join the voice conference through the headset."
+      },
+      {
+        "sentence_id": 65,
+        "text": "Users joining through Google Chrome or Mozilla Firefox are able to take advantage of higher quality audio by connecting using WebRTC."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R087d11df0ada0ed7",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_MFIzMEl4Ee243f2e4VWs6w",
+    "component_name": "model",
+    "target_sentence_id": 1,
+    "target_sentence": "We have been successfully transitioning from a spaghetti to a more structured architecture with the model in the center, and the logic as an intermediate layer towards the gui which is the outer shell.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "We have been successfully transitioning from a spaghetti to a more structured architecture with the model in the center, and the logic as an intermediate layer towards the gui which is the outer shell."
+      },
+      {
+        "sentence_id": 2,
+        "text": "There are additional utility packages for preferences and the cli."
+      },
+      {
+        "sentence_id": 3,
+        "text": "The dependencies are only directed towards the center."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R08cc3029ba6721fc",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_EBiwMEl4Ee243f2e4VWs6w",
+    "component_name": "cli",
+    "target_sentence_id": 7,
+    "target_sentence": "Only the gui knows the user and his preferences and can interact with him to help him solve tasks.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The model represents the most important data structures (BibDatases, BibEntries, Events, and related aspects) and has only a little bit of logic attached."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The logic is responsible for reading/writing/importing/exporting and manipulating the model, and it is structured often as an API the gui can call and use."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Only the gui knows the user and his preferences and can interact with him to help him solve tasks."
+      },
+      {
+        "sentence_id": 8,
+        "text": "For each layer, we form packages according to their responsibility, i.e., vertical structuring."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R0a00888c3b6305db",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_3LCnIKESEeu-mYqkDskRow",
+    "component_name": "Logic",
+    "target_sentence_id": 131,
+    "target_sentence": "storage.api provides the API of the component to be accessed by the logic component.",
+    "context": [
+      {
+        "sentence_id": 129,
+        "text": "Cascade logic is handled by the Logic component."
+      },
+      {
+        "sentence_id": 130,
+        "text": "Package overview contains storage.api, storage.entity, storage.search."
+      },
+      {
+        "sentence_id": 131,
+        "text": "storage.api provides the API of the component to be accessed by the logic component."
+      },
+      {
+        "sentence_id": 132,
+        "text": "storage.entity contains classes that represent persistable entities."
+      },
+      {
+        "sentence_id": 133,
+        "text": "storage.search contains classes for dealing with searching and indexing."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R0aeb191ba14cd614",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_XuNf4FkJEeyewPSmlgszyA",
+    "component_name": "Apps",
+    "target_sentence_id": 54,
+    "target_sentence": "Below is a diagram of the different components of Apps Akka.",
+    "context": [
+      {
+        "sentence_id": 52,
+        "text": "BigBlueButton Apps is the main application that pulls together the different applications to provide real-time collaboration in the meeting."
+      },
+      {
+        "sentence_id": 53,
+        "text": "It provides the list of users, chat, whiteboard, presentations in a meeting."
+      },
+      {
+        "sentence_id": 54,
+        "text": "Below is a diagram of the different components of Apps Akka."
+      },
+      {
+        "sentence_id": 55,
+        "text": "The meeting business logic is in the MeetingActor."
+      },
+      {
+        "sentence_id": 56,
+        "text": "This is where information about the meeting is stored and where all messages for a meeting is processed."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R0c6651d1396f90a2",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_NUdtEEl4Ee243f2e4VWs6w",
+    "component_name": "preferences",
+    "target_sentence_id": 9,
+    "target_sentence": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes.",
+    "context": [
+      {
+        "sentence_id": 7,
+        "text": "Only the gui knows the user and his preferences and can interact with him to help him solve tasks."
+      },
+      {
+        "sentence_id": 8,
+        "text": "For each layer, we form packages according to their responsibility, i.e., vertical structuring."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The cli package bundles classes that are responsible for JabRef’s command line interface."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The preferences represents all information customizable by a user for her personal needs."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R0d4bb44decd9de3b",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_9wZIcFkHEeyewPSmlgszyA",
+    "component_name": "FSESL",
+    "target_sentence_id": 57,
+    "target_sentence": "FSESL akka.",
+    "context": [
+      {
+        "sentence_id": 55,
+        "text": "The meeting business logic is in the MeetingActor."
+      },
+      {
+        "sentence_id": 56,
+        "text": "This is where information about the meeting is stored and where all messages for a meeting is processed."
+      },
+      {
+        "sentence_id": 57,
+        "text": "FSESL akka."
+      },
+      {
+        "sentence_id": 58,
+        "text": "We have extracted out the component that integrates with FreeSWITCH into it’s own application."
+      },
+      {
+        "sentence_id": 59,
+        "text": "This allows others who are using voice conference systems other than FreeSWITCH to easily create their own integration."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R120a5d8ca33e6c3e",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_KsOfgEl4Ee243f2e4VWs6w",
+    "component_name": "globals",
+    "target_sentence_id": 7,
+    "target_sentence": "Only the gui knows the user and his preferences and can interact with him to help him solve tasks.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The model represents the most important data structures (BibDatases, BibEntries, Events, and related aspects) and has only a little bit of logic attached."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The logic is responsible for reading/writing/importing/exporting and manipulating the model, and it is structured often as an API the gui can call and use."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Only the gui knows the user and his preferences and can interact with him to help him solve tasks."
+      },
+      {
+        "sentence_id": 8,
+        "text": "For each layer, we form packages according to their responsibility, i.e., vertical structuring."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R14b93ea2aa46502a",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_KsOfgEl4Ee243f2e4VWs6w",
+    "component_name": "globals",
+    "target_sentence_id": 4,
+    "target_sentence": "We have JUnit tests to detect violations of the most crucial dependencies (between logic, model, and gui), and the build will fail automatically in these cases.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "There are additional utility packages for preferences and the cli."
+      },
+      {
+        "sentence_id": 3,
+        "text": "The dependencies are only directed towards the center."
+      },
+      {
+        "sentence_id": 4,
+        "text": "We have JUnit tests to detect violations of the most crucial dependencies (between logic, model, and gui), and the build will fail automatically in these cases."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The model represents the most important data structures (BibDatases, BibEntries, Events, and related aspects) and has only a little bit of logic attached."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The logic is responsible for reading/writing/importing/exporting and manipulating the model, and it is structured often as an API the gui can call and use."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R151e4e853dd3353c",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_KsOfgEl4Ee243f2e4VWs6w",
+    "component_name": "globals",
+    "target_sentence_id": 11,
+    "target_sentence": "The preferences represents all information customizable by a user for her personal needs.",
+    "context": [
+      {
+        "sentence_id": 9,
+        "text": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The cli package bundles classes that are responsible for JabRef’s command line interface."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The preferences represents all information customizable by a user for her personal needs."
+      },
+      {
+        "sentence_id": 12,
+        "text": "We use an event bus to publish events from the model to the other layers."
+      },
+      {
+        "sentence_id": 13,
+        "text": "This allows us to keep the architecture but still react upon changes within the core in the outer layers."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R15ea7475e541be64",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_yGgUMFkHEeyewPSmlgszyA",
+    "component_name": "HTML5 Server",
+    "target_sentence_id": 47,
+    "target_sentence": "Redis PubSub provides a communication channel between different applications running on the BigBlueButton server.",
+    "context": [
+      {
+        "sentence_id": 45,
+        "text": "Regardless of which front-end you use, they all use the API under the hood."
+      },
+      {
+        "sentence_id": 46,
+        "text": "Redis PubSub."
+      },
+      {
+        "sentence_id": 47,
+        "text": "Redis PubSub provides a communication channel between different applications running on the BigBlueButton server."
+      },
+      {
+        "sentence_id": 48,
+        "text": "Redis DB."
+      },
+      {
+        "sentence_id": 49,
+        "text": "When a meeting is recorded, all events are stored in Redis DB."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R16aa938b9f395763",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_zUmhEKESEeu-mYqkDskRow",
+    "component_name": "Common",
+    "target_sentence_id": 1,
+    "target_sentence": "Architecture contains UI Component, Logic Component, Storage Component, Common Component, Test Driver Component, E2E Component, Client Component.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "Architecture contains UI Component, Logic Component, Storage Component, Common Component, Test Driver Component, E2E Component, Client Component."
+      },
+      {
+        "sentence_id": 2,
+        "text": "TEAMMATES is a Web application that runs on Google App Engine (GAE)."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Given above is an overview of the main components."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R1b77ffd7bacff46e",
+    "family": "bigbluebutton",
+    "cohort": "bigbluebutton_2021",
+    "component_id": "_0e5u8FkHEeyewPSmlgszyA",
+    "component_name": "HTML5 Client",
+    "target_sentence_id": 6,
+    "target_sentence": "The HTML5 client connects directly with the BigBlueButton server over port 443 (SSL), from loading the BigBlueButton client to making a web socket connection.",
+    "context": [
+      {
+        "sentence_id": 4,
+        "text": "HTML5 client."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The HTML5 client is a single page, responsive web application that is built upon the following components, React.js for rendering the user interface in an efficient manner, WebRTC for sending/receiving audio and video."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The HTML5 client connects directly with the BigBlueButton server over port 443 (SSL), from loading the BigBlueButton client to making a web socket connection."
+      },
+      {
+        "sentence_id": 7,
+        "text": "These connections are all handled by nginx."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The HTML5 server sits behind nginx."
+      }
+    ],
+    "source_text_sha256": "83caf526c892e6011122d35aecaa50afc72f5d030ca9c594f76afaf24a7a6bcd",
+    "source_model_sha256": "83bb30b53695ff544617435e9d0973c757ea28ff5ec00512e632a29e456e0bc1",
+    "source_gold_sha256": "0d891f76f039cea7b792bbec7d45172d1882ec0aa293ee1a3dcb0736e8669b6f"
+  },
+  {
+    "id": "R1d5f7dbc18893a9d",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_9eK7YHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaAccess",
+    "target_sentence_id": 28,
+    "target_sentence": "Furthermore, it fetches a list of all available audio files.",
+    "context": [
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      },
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      },
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R1e65b95f6b1dd6bc",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_Coy0kEl4Ee243f2e4VWs6w",
+    "component_name": "gui",
+    "target_sentence_id": 6,
+    "target_sentence": "The logic is responsible for reading/writing/importing/exporting and manipulating the model, and it is structured often as an API the gui can call and use.",
+    "context": [
+      {
+        "sentence_id": 4,
+        "text": "We have JUnit tests to detect violations of the most crucial dependencies (between logic, model, and gui), and the build will fail automatically in these cases."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The model represents the most important data structures (BibDatases, BibEntries, Events, and related aspects) and has only a little bit of logic attached."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The logic is responsible for reading/writing/importing/exporting and manipulating the model, and it is structured often as an API the gui can call and use."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Only the gui knows the user and his preferences and can interact with him to help him solve tasks."
+      },
+      {
+        "sentence_id": 8,
+        "text": "For each layer, we form packages according to their responsibility, i.e., vertical structuring."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R2057eb81701a671f",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 5,
+    "target_sentence": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files.",
+    "context": [
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "R276cc097ad396c1d",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_He3LoEl4Ee243f2e4VWs6w",
+    "component_name": "logic",
+    "target_sentence_id": 1,
+    "target_sentence": "We have been successfully transitioning from a spaghetti to a more structured architecture with the model in the center, and the logic as an intermediate layer towards the gui which is the outer shell.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "We have been successfully transitioning from a spaghetti to a more structured architecture with the model in the center, and the logic as an intermediate layer towards the gui which is the outer shell."
+      },
+      {
+        "sentence_id": 2,
+        "text": "There are additional utility packages for preferences and the cli."
+      },
+      {
+        "sentence_id": 3,
+        "text": "The dependencies are only directed towards the center."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R27a0f19b621e490a",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_EIoe8KETEeu-mYqkDskRow",
+    "component_name": "E2E",
+    "target_sentence_id": 15,
+    "target_sentence": "The E2E end-to-end component is used to interact with the application as a whole with Web browsers.",
+    "context": [
+      {
+        "sentence_id": 13,
+        "text": "TestNG is used for Java testing (all levels) and Jest for JavaScript unit-testing."
+      },
+      {
+        "sentence_id": 14,
+        "text": "HttpUnit is used to set up a simulated web server in servlet-level tests, where an actual web server is not required."
+      },
+      {
+        "sentence_id": 15,
+        "text": "The E2E end-to-end component is used to interact with the application as a whole with Web browsers."
+      },
+      {
+        "sentence_id": 16,
+        "text": "Its primary function is for E2E tests."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Selenium Java is used to automate E2E testing with actual Web browsers."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R3027c3fd168ec0a8",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_NUdtEEl4Ee243f2e4VWs6w",
+    "component_name": "preferences",
+    "target_sentence_id": 11,
+    "target_sentence": "The preferences represents all information customizable by a user for her personal needs.",
+    "context": [
+      {
+        "sentence_id": 9,
+        "text": "The model should have no dependencies to other classes of JabRef and the logic should only depend on model classes."
+      },
+      {
+        "sentence_id": 10,
+        "text": "The cli package bundles classes that are responsible for JabRef’s command line interface."
+      },
+      {
+        "sentence_id": 11,
+        "text": "The preferences represents all information customizable by a user for her personal needs."
+      },
+      {
+        "sentence_id": 12,
+        "text": "We use an event bus to publish events from the model to the other layers."
+      },
+      {
+        "sentence_id": 13,
+        "text": "This allows us to keep the architecture but still react upon changes within the core in the outer layers."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R3341bfe8660c1d3e",
+    "family": "teammates",
+    "cohort": "teammates_2021",
+    "component_id": "_EIoe8KETEeu-mYqkDskRow",
+    "component_name": "E2E",
+    "target_sentence_id": 186,
+    "target_sentence": "Its primary function is for E2E tests and L&P (Load & Performance) tests.",
+    "context": [
+      {
+        "sentence_id": 184,
+        "text": "This is how TEAMMATES testing maps to standard types of testing."
+      },
+      {
+        "sentence_id": 185,
+        "text": "The E2E component has no knowledge of the internal workings of the application and can only interact either with Web browser as a whole application or REST API calls for the back-end logic."
+      },
+      {
+        "sentence_id": 186,
+        "text": "Its primary function is for E2E tests and L&P (Load & Performance) tests."
+      },
+      {
+        "sentence_id": 187,
+        "text": "Package overview contains e2e.util, e2e.pageobjects, e2e.cases, x.util, x.e2e, x.lnp."
+      },
+      {
+        "sentence_id": 188,
+        "text": "e2e.util contains helpers needed for running E2E tests."
+      }
+    ],
+    "source_text_sha256": "970b45abd674adf4b340882965ec2c54851a04dd501b8c1e319434a15c25a27e",
+    "source_model_sha256": "0621d3a93f015cf69c19fc2b8521307949cc0ee1866079d1a4f3ff88078d3626",
+    "source_gold_sha256": "b577adb34b4869005efbc88336520f0b88a9652a8d54bba78c0453a6ee6c4f75"
+  },
+  {
+    "id": "R3951792fa9f6e0df",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_MFIzMEl4Ee243f2e4VWs6w",
+    "component_name": "model",
+    "target_sentence_id": 4,
+    "target_sentence": "We have JUnit tests to detect violations of the most crucial dependencies (between logic, model, and gui), and the build will fail automatically in these cases.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "There are additional utility packages for preferences and the cli."
+      },
+      {
+        "sentence_id": 3,
+        "text": "The dependencies are only directed towards the center."
+      },
+      {
+        "sentence_id": 4,
+        "text": "We have JUnit tests to detect violations of the most crucial dependencies (between logic, model, and gui), and the build will fail automatically in these cases."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The model represents the most important data structures (BibDatases, BibEntries, Events, and related aspects) and has only a little bit of logic attached."
+      },
+      {
+        "sentence_id": 6,
+        "text": "The logic is responsible for reading/writing/importing/exporting and manipulating the model, and it is structured often as an API the gui can call and use."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "R3c19243251f16655",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_9eK7YHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaAccess",
+    "target_sentence_id": 25,
+    "target_sentence": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component.",
+    "context": [
+      {
+        "sentence_id": 23,
+        "text": "The Database component represents an actual database (e.g., MySQL)."
+      },
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R527862e4729c4508",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_5LN7MLg2EeSNPorBlo7x9g",
+    "component_name": "DB",
+    "target_sentence_id": 31,
+    "target_sentence": "The Database component then executes the actual query for files.",
+    "context": [
+      {
+        "sentence_id": 29,
+        "text": "By contrast, the UserDBAdapter component provides all functions required in order to encapsulate database access for the user data."
+      },
+      {
+        "sentence_id": 30,
+        "text": "The UserDBAdapter component creates a query based on the user's request."
+      },
+      {
+        "sentence_id": 31,
+        "text": "The Database component then executes the actual query for files."
+      },
+      {
+        "sentence_id": 32,
+        "text": "All salted hashes of passwords are also stored in the Database component."
+      },
+      {
+        "sentence_id": 33,
+        "text": "By contrast, all audio files are stored in a specific location (e.g., a dedicated file server or a local disk) to decouple the DataStorage from the database."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R742dff2a814d4485",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_h_QpkLhEEeSNPorBlo7x9g",
+    "component_name": "TagWatermarking",
+    "target_sentence_id": 16,
+    "target_sentence": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component.",
+    "context": [
+      {
+        "sentence_id": 14,
+        "text": "To reduce the risk of copyright infringements, all downloaded files are watermarked."
+      },
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "R7cd3fc4f3a769b9e",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_lnx1oDVWEeqPG_FgW3bi6Q",
+    "component_name": "Persistence",
+    "target_sentence_id": 4,
+    "target_sentence": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service.",
+    "context": [
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Ra255ab1be707a956",
+    "family": "jabref",
+    "cohort": "jabref_2021",
+    "component_id": "_EBiwMEl4Ee243f2e4VWs6w",
+    "component_name": "cli",
+    "target_sentence_id": 2,
+    "target_sentence": "There are additional utility packages for preferences and the cli.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "We have been successfully transitioning from a spaghetti to a more structured architecture with the model in the center, and the logic as an intermediate layer towards the gui which is the outer shell."
+      },
+      {
+        "sentence_id": 2,
+        "text": "There are additional utility packages for preferences and the cli."
+      },
+      {
+        "sentence_id": 3,
+        "text": "The dependencies are only directed towards the center."
+      },
+      {
+        "sentence_id": 4,
+        "text": "We have JUnit tests to detect violations of the most crucial dependencies (between logic, model, and gui), and the build will fail automatically in these cases."
+      }
+    ],
+    "source_text_sha256": "8ff0d6ccc4c1dc6e32e13f24c218ea4a262b093aa158978aa0cb0ff4d271ace3",
+    "source_model_sha256": "51a7d525cf56b017e8b4b9d6c3f998c00c816c313b1d3a9a8141dd1c613e7189",
+    "source_gold_sha256": "73c4fa85122bb481ae475215d0c6581dfe9ab654d9b5730f082ecd1c83904f50"
+  },
+  {
+    "id": "Ra3601102143d7bca",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_p_EeYHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaManagement",
+    "target_sentence_id": 17,
+    "target_sentence": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user.",
+    "context": [
+      {
+        "sentence_id": 15,
+        "text": "To this end, the requested files are first reencoded."
+      },
+      {
+        "sentence_id": 16,
+        "text": "The re-encoded files are then digitally and individually watermarked by the TagWatermarking component."
+      },
+      {
+        "sentence_id": 17,
+        "text": "Afterward, the MediaManagement component forwards these audio files from the TagWatermarking component to the user."
+      },
+      {
+        "sentence_id": 18,
+        "text": "Hence, each downloaded audio file is uniquely connected to a user ID can can be associated with the user if the audio file should ever appear in the public Internet."
+      },
+      {
+        "sentence_id": 19,
+        "text": "To allow users to download several files at a time, we provide the Packaging component, which archives multiple audio files into a single compressed file."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "Ra633b573f76aba2c",
+    "family": "mediastore",
+    "cohort": "mediastore_2016",
+    "component_id": "_9eK7YHDrEeSqnN80MQ2uGw",
+    "component_name": "MediaAccess",
+    "target_sentence_id": 26,
+    "target_sentence": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location.",
+    "context": [
+      {
+        "sentence_id": 24,
+        "text": "It stores user information and meta-data of audio files such as the name and the genre."
+      },
+      {
+        "sentence_id": 25,
+        "text": "After the user calls the page to list all available audio files, AudioAccess creates a query that is sent to the Database component."
+      },
+      {
+        "sentence_id": 26,
+        "text": "When a user uploads an audio file, the MediaAccess component stores it at the predefined location."
+      },
+      {
+        "sentence_id": 27,
+        "text": "The MediaAccess component encapsulates database access for meta-data of audio files."
+      },
+      {
+        "sentence_id": 28,
+        "text": "Furthermore, it fetches a list of all available audio files."
+      }
+    ],
+    "source_text_sha256": "145644910abba683948df82a66c5bf809d00f3bff2a1275977ec5808a3cb31d3",
+    "source_model_sha256": "16a7c6f85fbc20b672789fda8dcb61c3d22e4759d5aa1d50350b5b437151b259",
+    "source_gold_sha256": "e2c007e7e00aa81d767125817f2f3f6f68d0ef43db89aac79766b17261de0512"
+  },
+  {
+    "id": "Rafd8b2f79148f51c",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_dhM6oDVXEeqPG_FgW3bi6Q",
+    "component_name": "Registry",
+    "target_sentence_id": 37,
+    "target_sentence": "The Registry provides information about how many service instances are online for each service and where they are located.",
+    "context": [
+      {
+        "sentence_id": 35,
+        "text": "Furthermore, one order-based nearest-neighbor approach is available."
+      },
+      {
+        "sentence_id": 36,
+        "text": "Its recommendation time is dependent on the number of items in the current cart as well as the total number of stored orders."
+      },
+      {
+        "sentence_id": 37,
+        "text": "The Registry provides information about how many service instances are online for each service and where they are located."
+      },
+      {
+        "sentence_id": 38,
+        "text": "Service instances register themselves at the registry on startup."
+      },
+      {
+        "sentence_id": 39,
+        "text": "Services are also required to send a heartbeat signal by re-registering periodically."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Rbf561a633a3fd40f",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_yA04AKTKEeqKjI323B3R3w",
+    "component_name": "ImageProvider",
+    "target_sentence_id": 7,
+    "target_sentence": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead.",
+    "context": [
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      },
+      {
+        "sentence_id": 9,
+        "text": "The status view lists the instance count and hosts for all registered service instances."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Rd82751a92892202a",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 2,
+    "target_sentence": "The WebUI service retrieves images from the Image Provider.",
+    "context": [
+      {
+        "sentence_id": 1,
+        "text": "The TeaStore consists of 5 replicatable services and a single Registry instance."
+      },
+      {
+        "sentence_id": 2,
+        "text": "The WebUI service retrieves images from the Image Provider."
+      },
+      {
+        "sentence_id": 3,
+        "text": "Users are authenticated by the Auth service."
+      },
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  },
+  {
+    "id": "Rfbc46c17ca6ed7b5",
+    "family": "teastore",
+    "cohort": "teastore_2020",
+    "component_id": "_bC13QDVWEeqPG_FgW3bi6Q",
+    "component_name": "WebUI",
+    "target_sentence_id": 6,
+    "target_sentence": "It contains logic to save and retireve values from cookies.",
+    "context": [
+      {
+        "sentence_id": 4,
+        "text": "Data is retrieved from the PersistenceProvider and product recommendations from the Recommender service."
+      },
+      {
+        "sentence_id": 5,
+        "text": "The WebUI provides the TeaStore front-end using Servlets in combination with JSP files."
+      },
+      {
+        "sentence_id": 6,
+        "text": "It contains logic to save and retireve values from cookies."
+      },
+      {
+        "sentence_id": 7,
+        "text": "Images (with few exceptions) are not provides by the WebUi, but are retrieved from the Image Provider service instead."
+      },
+      {
+        "sentence_id": 8,
+        "text": "The UI provides a status page at link indicating the current state of the TeaStore."
+      }
+    ],
+    "source_text_sha256": "330fad097a3f64d2641ea2bc6db54b63b9d050c806d4c7c38feaa853ac9c5fcd",
+    "source_model_sha256": "a9dca17401189c499639be761c7084a13cab2d68d5ef7500521e243b8abe8f10",
+    "source_gold_sha256": "981a29f87dedf98b7d65e59a79acdbae35082c934dd3cf2b85383c75ef567cc0"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "R000e81c1d143023b",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R000e81c1d143023b",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R002236f391bf0b13",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R002236f391bf0b13",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0056443097c2a984",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0056443097c2a984",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R005869b98576b897",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R005869b98576b897",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0065b485fd91f2c0",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0065b485fd91f2c0",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R006b95c91100c93b",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R006b95c91100c93b",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R008ae4b726f497ae",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R008ae4b726f497ae",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0096e987157275ee",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0096e987157275ee",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "link",
+    "correct": 0
+  },
+  {
+    "id": "R009a43e318016f3a",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R009a43e318016f3a",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00aa04554c4fae4d",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00aa04554c4fae4d",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "link",
+    "correct": 0
+  },
+  {
+    "id": "R00bd33872f310499",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00bd33872f310499",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00bdf9f390d950e2",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00bdf9f390d950e2",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "link",
+    "correct": 0
+  },
+  {
+    "id": "R00c3aee6ca83ce69",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00c3aee6ca83ce69",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "link",
+    "correct": 0
+  },
+  {
+    "id": "R00ca2cfe4f91a377",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00ca2cfe4f91a377",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00d6eb792254707d",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00d6eb792254707d",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00fc58eaf7303a2d",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R00fc58eaf7303a2d",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R01029642f3e5fb84",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R01029642f3e5fb84",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0119d4cffc4f2e6d",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0119d4cffc4f2e6d",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R011ea877584bde12",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R011ea877584bde12",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "link",
+    "correct": 0
+  },
+  {
+    "id": "R012b5b668244e58d",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R012b5b668244e58d",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0136ebca0d4f1480",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0136ebca0d4f1480",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0177471cddb2b564",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0177471cddb2b564",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R01c98bb9ffe2bd0a",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R01c98bb9ffe2bd0a",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R020763719d5c882c",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R020763719d5c882c",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R02323704ab87ec88",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "R02323704ab87ec88",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R0383340d16d456a1",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0383340d16d456a1",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R054ed5f837afc990",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R054ed5f837afc990",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R06c43dfdf1fa62f7",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R06c43dfdf1fa62f7",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R07267c81d446f7c6",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R07267c81d446f7c6",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R087d11df0ada0ed7",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R087d11df0ada0ed7",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R08cc3029ba6721fc",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R08cc3029ba6721fc",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0a00888c3b6305db",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R0a00888c3b6305db",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R0aeb191ba14cd614",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R0aeb191ba14cd614",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R0c6651d1396f90a2",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R0c6651d1396f90a2",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "link",
+    "correct": 0
+  },
+  {
+    "id": "R0d4bb44decd9de3b",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R0d4bb44decd9de3b",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R120a5d8ca33e6c3e",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R120a5d8ca33e6c3e",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R14b93ea2aa46502a",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R14b93ea2aa46502a",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R151e4e853dd3353c",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R151e4e853dd3353c",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "nonlink",
+    "prediction": "nonlink",
+    "correct": 1
+  },
+  {
+    "id": "R15ea7475e541be64",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "R15ea7475e541be64",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "R16aa938b9f395763",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R16aa938b9f395763",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R1b77ffd7bacff46e",
+    "family": "bigbluebutton",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R1b77ffd7bacff46e",
+    "family": "bigbluebutton",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R1d5f7dbc18893a9d",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "R1d5f7dbc18893a9d",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R1e65b95f6b1dd6bc",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R1e65b95f6b1dd6bc",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R2057eb81701a671f",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R2057eb81701a671f",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R276cc097ad396c1d",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R276cc097ad396c1d",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R27a0f19b621e490a",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R27a0f19b621e490a",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3027c3fd168ec0a8",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3027c3fd168ec0a8",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3341bfe8660c1d3e",
+    "family": "teammates",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3341bfe8660c1d3e",
+    "family": "teammates",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3951792fa9f6e0df",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3951792fa9f6e0df",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R3c19243251f16655",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "R3c19243251f16655",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R527862e4729c4508",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "R527862e4729c4508",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R742dff2a814d4485",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R742dff2a814d4485",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R7cd3fc4f3a769b9e",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "R7cd3fc4f3a769b9e",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Ra255ab1be707a956",
+    "family": "jabref",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Ra255ab1be707a956",
+    "family": "jabref",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Ra3601102143d7bca",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Ra3601102143d7bca",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Ra633b573f76aba2c",
+    "family": "mediastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Ra633b573f76aba2c",
+    "family": "mediastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Rafd8b2f79148f51c",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Rafd8b2f79148f51c",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Rbf561a633a3fd40f",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "Rbf561a633a3fd40f",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "Rd82751a92892202a",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Rd82751a92892202a",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  },
+  {
+    "id": "Rfbc46c17ca6ed7b5",
+    "family": "teastore",
+    "scope": "target",
+    "reference": "link",
+    "prediction": "nonlink",
+    "correct": 0
+  },
+  {
+    "id": "Rfbc46c17ca6ed7b5",
+    "family": "teastore",
+    "scope": "context",
+    "reference": "link",
+    "prediction": "link",
+    "correct": 1
+  }
+]

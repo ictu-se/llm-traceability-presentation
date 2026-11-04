@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "questions": 60,
+  "question_fingerprints_disjoint_from_previous": true,
+  "projects": 5,
+  "primary_jobs": 120,
+  "singleton_jobs": 80,
+  "balanced_singleton_questions": 10,
+  "factor_literal_text_preserved": true
+}

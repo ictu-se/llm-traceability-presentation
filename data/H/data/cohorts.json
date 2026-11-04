@@ -1,0 +1,72 @@
+[
+  {
+    "family": "bigbluebutton",
+    "year": 2021,
+    "sentences": 87,
+    "components": 12,
+    "published_positive_links": 62,
+    "available_unqueried_positive": 54,
+    "available_unqueried_nonlink": 973,
+    "excluded_previous_query_pairs": 17,
+    "selected_positive": 6,
+    "selected_nonlink": 6,
+    "scope": "open_source_production_project",
+    "revision": "e60ddb2676358048131178c925e86a5b33ec38f2"
+  },
+  {
+    "family": "jabref",
+    "year": 2021,
+    "sentences": 13,
+    "components": 6,
+    "published_positive_links": 18,
+    "available_unqueried_positive": 12,
+    "available_unqueried_nonlink": 54,
+    "excluded_previous_query_pairs": 12,
+    "selected_positive": 6,
+    "selected_nonlink": 6,
+    "scope": "open_source_production_project",
+    "revision": "e60ddb2676358048131178c925e86a5b33ec38f2"
+  },
+  {
+    "family": "teammates",
+    "year": 2021,
+    "sentences": 198,
+    "components": 8,
+    "published_positive_links": 57,
+    "available_unqueried_positive": 49,
+    "available_unqueried_nonlink": 1518,
+    "excluded_previous_query_pairs": 17,
+    "selected_positive": 6,
+    "selected_nonlink": 6,
+    "scope": "open_source_production_project",
+    "revision": "e60ddb2676358048131178c925e86a5b33ec38f2"
+  },
+  {
+    "family": "mediastore",
+    "year": 2016,
+    "sentences": 37,
+    "components": 14,
+    "published_positive_links": 31,
+    "available_unqueried_positive": 11,
+    "available_unqueried_nonlink": 467,
+    "excluded_previous_query_pairs": 40,
+    "selected_positive": 6,
+    "selected_nonlink": 6,
+    "scope": "research_reference_application",
+    "revision": "e60ddb2676358048131178c925e86a5b33ec38f2"
+  },
+  {
+    "family": "teastore",
+    "year": 2020,
+    "sentences": 43,
+    "components": 11,
+    "published_positive_links": 27,
+    "available_unqueried_positive": 7,
+    "available_unqueried_nonlink": 426,
+    "excluded_previous_query_pairs": 40,
+    "selected_positive": 6,
+    "selected_nonlink": 6,
+    "scope": "research_reference_application",
+    "revision": "e60ddb2676358048131178c925e86a5b33ec38f2"
+  }
+]

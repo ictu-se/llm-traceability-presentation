@@ -1,0 +1,14 @@
+[
+  {
+    "arm": "experiments",
+    "original_local_manifest_sha256": "bb3c2fc57f33b06f18d3a491de723dc181b1ab773a5999f0070577880667ce43",
+    "frozen_utc": "2026-11-03T09:16:34.150451+00:00",
+    "public_manifest_is_derived": true
+  },
+  {
+    "arm": "identity_control",
+    "original_local_manifest_sha256": "2821c7d394acdf0f4ea402a0c51a24e54413295556e94bddb7a992984d144dd3",
+    "frozen_utc": "2026-11-03T09:29:19.565422+00:00",
+    "public_manifest_is_derived": true
+  }
+]

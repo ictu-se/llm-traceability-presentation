@@ -1,0 +1,41 @@
+{
+  "gpt-oss:20b": {
+    "digest": "17052f91a42e97930aa6e28a6c6c06a983e6a58dbb00434885a0cf5313e376f7",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "gptoss",
+      "families": [
+        "gptoss"
+      ],
+      "parameter_size": "20.9B",
+      "quantization_level": "MXFP4"
+    }
+  },
+  "mistral-small:24b": {
+    "digest": "8039dd90c1138d772437a0779a33b7349efd5d9cca71edcd26e4dd463f90439d",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "23.6B",
+      "quantization_level": "Q4_K_M"
+    }
+  },
+  "gemma4:26b": {
+    "digest": "001e5dafc3c77684c2307ebc6ab8e336e10c9b18eca52acf547d72fc83c3ca8c",
+    "details": {
+      "parent_model": "c4-targeted-20260929-26b/model-q4_K_M.gguf",
+      "format": "gguf",
+      "family": "gemma4",
+      "families": [
+        "gemma4"
+      ],
+      "parameter_size": "25.2B",
+      "quantization_level": "Q4_K_M"
+    }
+  }
+}
