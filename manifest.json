@@ -1,5 +1,5 @@
 {
-  "release": "v1.1.0",
+  "release": "v1.2.0",
   "expected_calls": 624,
   "item_observations": 6288,
   "files": [
@@ -9,7 +9,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "49ba41c5e46204e44dd0da1b797a029d04d234615e16d595a0d9bf2a3d73d8c2"
+      "sha256": "f7c5cd7c892f38637cce6e6f34fa2bb3cbaa93839cd19e9e55386b5423e3482b"
     },
     {
       "path": "UPSTREAM_BENCHMARK_LICENSE.txt",
@@ -2801,7 +2801,7 @@
     },
     {
       "path": "reproduce.py",
-      "sha256": "f9176af06a130c637e02f9a3a7028387e914225fa0ae8d2b7b5b0fd984e55265"
+      "sha256": "f24d746a05ee65455de30757a19dbed77b93acd89a8554bc84a84d300c0dea79"
     },
     {
       "path": "requirements.txt",
@@ -2814,6 +2814,10 @@
     {
       "path": "source_revision.json",
       "sha256": "13933d22bfc6d12836b7789d7489eab0873e6a395193399d5093dc1651fa579f"
+    },
+    {
+      "path": "table_layout.py",
+      "sha256": "181d14d37204ece61831fdfab89957b1e92299620dd7d6f583d7ba91d7af0c90"
     },
     {
       "path": "validation.py",

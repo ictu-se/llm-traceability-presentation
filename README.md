@@ -52,3 +52,7 @@ Replay verifies model digests and server version, preserves the exact prompts/op
 ## Scope of the release
 
 The repository contains code, benchmark-derived inputs, raw outputs, and analysis results. Article PDF/TeX, author contact metadata, credentials, and manuscript submission files are intentionally absent. No Zenodo deposit or DOI is claimed. Citation order, page layout, and article preparation are handled separately from this analysis artifact.
+
+## Compact article tables (v1.2.0)
+
+`table_layout.py` pivots discovery and factorial cells, combines identical H/R design rows, and represents identical Mistral singleton cells once. Paired entries are counts, not computed ratios. The failure partition places U/L contributions side by side and moves cohort-constant denominators into the article caption. Round-trip assertions check that pivoted tables retain every original value. All eight numerical CSVs are unchanged. Figure labels retain ten-point typography.

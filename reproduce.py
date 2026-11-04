@@ -698,6 +698,9 @@ def build():
         (TEX / "tables/singletons.tex").write_text(
             "Replication is running; no singleton results have been imputed.\n"
         )
+    from table_layout import compact_tables
+
+    compact_tables(TEX)
     # Macros are derived counts, never hand-filled outcomes.
     macros = []
 
@@ -889,7 +892,7 @@ def plot(effects, outcomes, controls, complete):
     fig, axes = plt.subplots(
         len(models),
         2,
-        figsize=(4.724, 5.05 if complete else 3.8),
+        figsize=(4.724, 4.55 if complete else 3.8),
         squeeze=False,
         sharey=True,
     )
