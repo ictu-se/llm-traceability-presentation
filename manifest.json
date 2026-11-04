@@ -1,5 +1,5 @@
 {
-  "release": "v1.0.0",
+  "release": "v1.0.1",
   "expected_calls": 624,
   "item_observations": 6288,
   "files": [
@@ -2210,6 +2210,10 @@
     {
       "path": "data/R/PROTOCOL.txt",
       "sha256": "b29261e6879c10e8aff0b32c092fc613bca41fa77bfbf29c9a50c25970837264"
+    },
+    {
+      "path": "data/R/amendment_running_snapshot.json",
+      "sha256": "31caf0738d1ceb22c46493b859781508a3c598340f48b0fc292f6de4f7124787"
     },
     {
       "path": "data/R/calls/000d2cc0069c714cdc2e5aa6.json",

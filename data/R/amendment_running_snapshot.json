@@ -1,0 +1,38 @@
+{
+  "status": "running",
+  "pid": 32735,
+  "updated_utc": "2026-11-03T09:29:17.984811+00:00",
+  "completed_calls": 87,
+  "planned_calls": 200,
+  "by_study": {
+    "replication": 47,
+    "singleton": 40
+  },
+  "batch_failures": 0,
+  "current_job": {
+    "study": "replication",
+    "model": "mistral-small:24b",
+    "seed": 17,
+    "family": "jabref",
+    "ids": [
+      "R011ea877584bde12",
+      "R087d11df0ada0ed7",
+      "R08cc3029ba6721fc",
+      "R0c6651d1396f90a2",
+      "R120a5d8ca33e6c3e",
+      "R14b93ea2aa46502a",
+      "R151e4e853dd3353c",
+      "R1e65b95f6b1dd6bc",
+      "R276cc097ad396c1d",
+      "R3027c3fd168ec0a8",
+      "R3951792fa9f6e0df",
+      "Ra255ab1be707a956"
+    ],
+    "batch_size": 12,
+    "layout": "prose",
+    "linked": true,
+    "request_sha256": "e681c8a2ebfddb4459e603cfd11740abbf91971eb4cdb450c110eaad466d45b0",
+    "id": "8f614a0f6c6ca77173775443"
+  },
+  "error": null
+}
